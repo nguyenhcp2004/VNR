@@ -43,13 +43,13 @@ export default function GamePage() {
 
   useEffect(() => {
     if (state.stage === 1 || state.stage === 2) {
-      const stageOffset = state.stage === 1 ? 0 : 9;
+      const stageOffset = state.stage === 1 ? 0 : 6;
       const piecesInCurrentStage = state.collectedPieces.filter(
-        (p) => p >= stageOffset && p < stageOffset + 9
+        (p) => p >= stageOffset && p < stageOffset + 3
       ).length;
 
-      // Stage 1: need 14 pieces total, Stage 2: need 18 pieces total
-      const requiredPieces = state.stage === 1 ? 14 : 18;
+      // Stage 1: need 6 pieces total, Stage 2: need 9 pieces total
+      const requiredPieces = state.stage === 1 ? 6 : 9;
 
       if (state.collectedPieces.length >= requiredPieces) {
         setTimeout(() => {
@@ -107,7 +107,7 @@ export default function GamePage() {
       case 1:
       case 2: {
         // Check if already have enough pieces for this stage
-        const requiredPieces = state.stage === 1 ? 14 : 18;
+        const requiredPieces = state.stage === 1 ? 6 : 9;
         if (state.collectedPieces.length >= requiredPieces) {
           // Show transitioning message
           return (
@@ -122,7 +122,8 @@ export default function GamePage() {
           );
         }
 
-        const offset = state.stage === 1 ? 0 : 60;
+        const mcCount = state.selectedQuestions.filter(q => q.type === 'MC').length;
+        const offset = state.stage === 1 ? 0 : mcCount;
         const actualIndex = offset + state.currentQuestionIndex;
         const currentQuestion = state.selectedQuestions[actualIndex];
 
@@ -145,7 +146,7 @@ export default function GamePage() {
             <GameHeader
               stage={state.stage}
               collectedPieces={state.collectedPieces.length}
-              totalPieces={18}
+              totalPieces={9}
               correctAnswers={state.correctAnswers}
               wrongAnswers={state.wrongAnswers}
               onPause={handlePause}
@@ -168,7 +169,7 @@ export default function GamePage() {
               <GameHeader
                 stage={3}
                 collectedPieces={state.collectedPieces.length}
-                totalPieces={18}
+                totalPieces={9}
                 correctAnswers={state.correctAnswers}
                 wrongAnswers={state.wrongAnswers}
                 onPause={handlePause}

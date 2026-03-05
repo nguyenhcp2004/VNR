@@ -130,16 +130,16 @@ export default function WelcomeScreen({
           ref={titleRef}
           className="text-5xl md:text-7xl font-bold text-amber-400 mb-6 drop-shadow-2xl"
         >
-          Hành Trình Nhân Quyền
+          Cách Mạng Tháng Tám
         </h1>
 
         <h2
           ref={subtitleRef}
           className="text-xl md:text-2xl font-semibold text-white/90 mb-12 px-4 leading-relaxed"
         >
-          Cùng tham gia vào trò chơi
+          Hành trình giành độc lập 1945
           <br />
-          Để hiểu hơn và &quot;Thử thách trí nhớ&quot; của mình nhé!
+          Cùng khám phá và &quot;Thử thách trí nhớ&quot; của bạn!
         </h2>
 
         {/* Main CTA Button */}
@@ -182,7 +182,7 @@ export default function WelcomeScreen({
 
         {/* Game Description */}
         <p className="mt-12 text-white/80 text-lg max-w-2xl mx-auto">
-          Trả lời câu hỏi để thu thập mảnh ghép và hoàn thành bức tranh lịch sử!
+          Trả lời câu hỏi về Cách mạng Tháng Tám để thu thập mảnh ghép và hoàn thành bức tranh lịch sử!
         </p>
       </div>
     </div>

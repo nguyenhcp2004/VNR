@@ -370,5 +370,125 @@
     "content": "Một yếu tố quan trọng dẫn đến thắng lợi của Cách mạng Tháng Tám là sự lãnh đạo đúng đắn của _____.",
     "type": "text",
     "correct_answer": "Đảng Cộng sản"
+  },
+  {
+    "id": 41,
+    "content": "Hội nghị Trung ương 8 (1941) xác định hình thức đấu tranh chủ yếu của cách mạng Việt Nam là gì?",
+    "type": "MC",
+    "options": [
+      "A. Đấu tranh nghị trường",
+      "B. Khởi nghĩa vũ trang",
+      "C. Đấu tranh ngoại giao",
+      "D. Đấu tranh kinh tế"
+    ],
+    "correct_answer": "B"
+  },
+  {
+    "id": 42,
+    "content": "Một nhiệm vụ quan trọng của Việt Minh trong giai đoạn 1941–1945 là gì?",
+    "type": "MC",
+    "options": [
+      "A. Mở rộng giao thương quốc tế",
+      "B. Tập hợp lực lượng toàn dân chống phát xít",
+      "C. Phát triển công nghiệp nặng",
+      "D. Thành lập chính phủ liên hiệp"
+    ],
+    "correct_answer": "B"
+  },
+  {
+    "id": 43,
+    "content": "Khu giải phóng Việt Bắc năm 1945 bao gồm bao nhiêu tỉnh cơ bản?",
+    "type": "MC",
+    "options": [
+      "A. 4 tỉnh",
+      "B. 5 tỉnh",
+      "C. 6 tỉnh",
+      "D. 7 tỉnh"
+    ],
+    "correct_answer": "C"
+  },
+  {
+    "id": 44,
+    "content": "Ai là người ra chỉ thị thành lập Đội Việt Nam Tuyên truyền Giải phóng quân?",
+    "type": "MC",
+    "options": [
+      "A. Võ Nguyên Giáp",
+      "B. Nguyễn Ái Quốc",
+      "C. Trường Chinh",
+      "D. Phạm Văn Đồng"
+    ],
+    "correct_answer": "B"
+  },
+  {
+    "id": 45,
+    "content": "Một trong những nguyên nhân khách quan dẫn đến thắng lợi của Cách mạng Tháng Tám là gì?",
+    "type": "MC",
+    "options": [
+      "A. Sự hỗ trợ quân sự trực tiếp của Đồng minh",
+      "B. Nhật Bản đầu hàng Đồng minh",
+      "C. Pháp trao trả độc lập cho Việt Nam",
+      "D. Sự phát triển mạnh của kinh tế Đông Dương"
+    ],
+    "correct_answer": "B"
+  },
+  {
+    "id": 46,
+    "content": "Đặc điểm nổi bật của Tổng khởi nghĩa Tháng Tám năm 1945 là gì?",
+    "type": "MC",
+    "options": [
+      "A. Diễn ra đồng loạt trên phạm vi cả nước",
+      "B. Chỉ diễn ra ở thành thị",
+      "C. Diễn ra trong nhiều năm",
+      "D. Chỉ do lực lượng quân đội thực hiện"
+    ],
+    "correct_answer": "A"
+  },
+  {
+    "id": 47,
+    "content": "Chính quyền cách mạng được thành lập sau Cách mạng Tháng Tám năm 1945 là chính quyền của ai?",
+    "type": "MC",
+    "options": [
+      "A. Giai cấp tư sản",
+      "B. Địa chủ phong kiến",
+      "C. Nhân dân lao động",
+      "D. Quân đội cách mạng"
+    ],
+    "correct_answer": "C"
+  },
+  {
+    "id": 48,
+    "content": "Một ý nghĩa quốc tế quan trọng của Cách mạng Tháng Tám 1945 là gì?",
+    "type": "MC",
+    "options": [
+      "A. Mở đầu phong trào giải phóng dân tộc ở châu Á",
+      "B. Chấm dứt Chiến tranh thế giới thứ hai",
+      "C. Thành lập Liên Hợp Quốc",
+      "D. Thống nhất bán đảo Đông Dương"
+    ],
+    "correct_answer": "A"
+  },
+  {
+    "id": 49,
+    "content": "Yếu tố nào thể hiện nghệ thuật lãnh đạo cách mạng của Đảng trong năm 1945?",
+    "type": "MC",
+    "options": [
+      "A. Phát triển công nghiệp quốc phòng",
+      "B. Chớp đúng thời cơ tổng khởi nghĩa",
+      "C. Thành lập chính phủ liên hiệp",
+      "D. Đàm phán hòa bình với Pháp"
+    ],
+    "correct_answer": "B"
+  },
+  {
+    "id": 50,
+    "content": "Thắng lợi của Cách mạng Tháng Tám năm 1945 đã đưa Việt Nam từ thân phận thuộc địa trở thành gì?",
+    "type": "MC",
+    "options": [
+      "A. Quốc gia độc lập",
+      "B. Thuộc địa tự trị",
+      "C. Liên bang Đông Dương",
+      "D. Quốc gia bảo hộ"
+    ],
+    "correct_answer": "A"
   }
 ]
