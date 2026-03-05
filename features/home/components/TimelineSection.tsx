@@ -59,14 +59,39 @@ const TimelineSection = ({
     }
   }, []);
 
-  // Sort posts by milestone year
+  // Sort posts by milestone date (year + month)
+  // Handles formats: "1939", "1941–1944", "11-1939", "02-09-1945"
+  // Returns YYYYMM as number for comparison (e.g., 194503 for March 1945)
+  const extractDate = (milestone: string): number => {
+    // Handle year range with en-dash (e.g., "1941–1944") - use start year, assume month 01
+    if (milestone.includes("–")) {
+      const year = parseInt(milestone.split("–")[0]);
+      return year * 100 + 1;
+    }
+    
+    const parts = milestone.split("-");
+    
+    if (parts.length === 1) {
+      // Plain year (e.g., "1939") - assume month 01
+      return parseInt(parts[0]) * 100 + 1;
+    } else if (parts.length === 2) {
+      // MM-YYYY format (e.g., "11-1939")
+      const month = parseInt(parts[0]);
+      const year = parseInt(parts[1]);
+      return year * 100 + month;
+    } else if (parts.length === 3) {
+      // DD-MM-YYYY format (e.g., "02-09-1945")
+      const month = parseInt(parts[1]);
+      const year = parseInt(parts[2]);
+      return year * 100 + month;
+    }
+    
+    return 0;
+  };
+
   const sortedPosts = [...posts]
-    .sort((a, b) => {
-      const yearA = parseInt(a.milestone.split("–")[0] || a.milestone);
-      const yearB = parseInt(b.milestone.split("–")[0] || b.milestone);
-      return yearA - yearB;
-    })
-    .slice(0, 4); // Limit to first 4 milestones
+    .sort((a, b) => extractDate(b.milestone) - extractDate(a.milestone))
+    .slice(0, 10); // Limit to first 10 milestones
 
   return (
     <div className="container mx-auto px-6 py-24">
