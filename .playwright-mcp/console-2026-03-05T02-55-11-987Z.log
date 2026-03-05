@@ -1,0 +1,41 @@
+[     510ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a7ab06425c74279:0
+[    1400ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a7ab06425c74279:0
+[    1521ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://rever.vn/public/externaljs/www.googleadservices.com/pagead/conversion_async.js:0
+[    1988ms] [WARNING] [TrackingContactForm] Google Analytics not found. Please embed GA scripts. @ https://s3-cdn.rever.vn/p/v2.48.50/app_v2/listing.min.js?v=1772639032119:0
+[    1988ms] [WARNING] [TrackingContactForm] Google Analytics not found. Please embed GA scripts. @ https://s3-cdn.rever.vn/p/v2.48.50/app_v2/listing.min.js?v=1772639032119:0
+[    1994ms] [ERROR] TypeError: Cannot read properties of null (reading 'getAttribute')
+    at Zn.data (https://s3-cdn.rever.vn/p/v2.48.50/app_v2/listing.min.js?v=1772639032119:1:241767)
+    at Zn.<anonymous> (https://s3-cdn.rever.vn/p/v2.48.50/app_v2/listing.min.js?v=1772639032119:1:286615)
+    at https://s3-cdn.rever.vn/p/v2.48.50/app_v2/listing.min.js?v=1772639032119:1:279312
+    at https://s3-cdn.rever.vn/p/v2.48.50/app_v2/listing.min.js?v=1772639032119:1:279372
+    at _n (https://s3-cdn.rever.vn/p/v2.48.50/app_v2/listing.min.js?v=1772639032119:1:279549)
+    at t._init (https://s3-cdn.rever.vn/p/v2.48.50/app_v2/listing.min.js?v=1772639032119:1:291773)
+    at new Zn (https://s3-cdn.rever.vn/p/v2.48.50/app_v2/listing.min.js?v=1772639032119:1:289145)
+    at 4TNo (https://s3-cdn.rever.vn/p/v2.48.50/app_v2/listing.min.js?v=1772639032119:1:241659)
+    at n (https://s3-cdn.rever.vn/p/v2.48.50/app_v2/listing.min.js?v=1772639032119:1:110)
+    at Zn.initCalcMortgageTool (https://s3-cdn.rever.vn/p/v2.48.50/app_v2/listing.min.js?v=1772639032119:1:235903) @ https://s3-cdn.rever.vn/p/v2.48.50/app_v2/listing.min.js?v=1772639032119:0
+[    1995ms] [ERROR] ReferenceError: theme is not defined
+    at Zn.eval (eval at Ts (https://s3-cdn.rever.vn/p/v2.48.50/app_v2/listing.min.js?v=1772639032119:1:354239), <anonymous>:3:84)
+    at t._render (https://s3-cdn.rever.vn/p/v2.48.50/app_v2/listing.min.js?v=1772639032119:1:294505)
+    at Zn.n (https://s3-cdn.rever.vn/p/v2.48.50/app_v2/listing.min.js?v=1772639032119:1:328553)
+    at t.get (https://s3-cdn.rever.vn/p/v2.48.50/app_v2/listing.min.js?v=1772639032119:1:277034)
+    at new t (https://s3-cdn.rever.vn/p/v2.48.50/app_v2/listing.min.js?v=1772639032119:1:276947)
+    at https://s3-cdn.rever.vn/p/v2.48.50/app_v2/listing.min.js?v=1772639032119:1:328521
+    at Zn.$mount (https://s3-cdn.rever.vn/p/v2.48.50/app_v2/listing.min.js?v=1772639032119:1:328703)
+    at Zn.$mount (https://s3-cdn.rever.vn/p/v2.48.50/app_v2/listing.min.js?v=1772639032119:1:356047)
+    at t._init (https://s3-cdn.rever.vn/p/v2.48.50/app_v2/listing.min.js?v=1772639032119:1:292050)
+    at new Zn (https://s3-cdn.rever.vn/p/v2.48.50/app_v2/listing.min.js?v=1772639032119:1:289145) @ https://s3-cdn.rever.vn/p/v2.48.50/app_v2/listing.min.js?v=1772639032119:0
+[    2088ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://rever.vn/api/property/fb-pixel?id=&service_type=1&source=rever:0
+[    2122ms] [WARNING] Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading @ https://maps.googleapis.com/maps/api/js?key=AIzaSyB_J7TCgptlDrvjaFaHrayYb1C2F8ZaeBg&libraries=drawing,places,geometry&language=vi&callback=callbackInitMap:1444
+[    2178ms] [ERROR] Attestation check for Attribution Reporting on https://www.google-analytics.com failed. @ https://rever.vn/thue/cho-thue-can-ho-penthouse-celesta-rise-2pn-view-phao-hoa:0
+[    2833ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.en.PCvl17LujMs.O/m=auth2/rt=j/sv=1/d=1/ed=1/rs=AHpOoo-sAn5Asuf3MvShXCH_dsg8tE46Tw/cb=gapi.loaded_0?le=scs,fedcm_migration_mod:191
+[    3218ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://accounts.google.com/_/IdpIFrameHttp/cspreport/fine-allowlist:0
+[    3333ms] [ERROR] Submit element not found @ https://cdn.rollbar.com/rollbarjs/refs/tags/v2.21.0/rollbar.min.js:0
+[    3499ms] [WARNING] Your client application uses libraries for user authentication or authorization that are deprecated. See the [Migration Guide](https://developers.google.com/identity/gsi/web/guides/gis-migration) for more information. @ https://cdn.rollbar.com/rollbarjs/refs/tags/v2.21.0/rollbar.min.js:0
+[    3530ms] [ERROR] Not signed in with the identity provider. @ https://rever.vn/thue/cho-thue-can-ho-penthouse-celesta-rise-2pn-view-phao-hoa:0
+[    3760ms] [ERROR] Attestation check for Attribution Reporting on https://www.facebook.com failed. @ https://rever.vn/thue/cho-thue-can-ho-penthouse-celesta-rise-2pn-view-phao-hoa:0
+[    3812ms] [ERROR] Attestation check for Attribution Reporting on https://www.facebook.com failed. @ https://rever.vn/thue/cho-thue-can-ho-penthouse-celesta-rise-2pn-view-phao-hoa:0
+[    3984ms] [WARNING] [quick-fetch] quickFetchScript was not included or running in Node.js environment. Falling back to stubbed implementation. @ https://static.hsappstatic.net/embedded-viral-link-ui/static-1.6105/app.js:24
+[    5238ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://rever.vn/api/mkt/campaign/inbound-mkt/ads:0
+[    7410ms] [ERROR] Attestation check for Attribution Reporting on https://www.facebook.com failed. @ https://rever.vn/thue/cho-thue-can-ho-penthouse-celesta-rise-2pn-view-phao-hoa:0
+[   20333ms] [ERROR] [GSI_LOGGER]: FedCM get() rejects with NetworkError: Error retrieving a token. @ https://cdn.rollbar.com/rollbarjs/refs/tags/v2.21.0/rollbar.min.js:0

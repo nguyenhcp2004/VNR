@@ -1,0 +1,962 @@
+[
+  {
+    "id": 1,
+    "content": "Theo tiến trình lịch sử, mức độ phát triển của dân chủ luôn gắn liền và tỉ lệ thuận với yếu tố nào?",
+    "type": "MC",
+    "options": [
+      "A. Sự phát triển vũ khí",
+      "B. Quy mô lãnh thổ",
+      "C. Việc mở rộng quyền con người",
+      "D. Sự gia tăng dân số"
+    ],
+    "correct_answer": "C"
+  },
+  {
+    "id": 2,
+    "content": "Trong xã hội chiếm hữu nô lệ, nô lệ bị coi là gì?",
+    "type": "MC",
+    "options": [
+      "A. Thần dân",
+      "B. Công cụ lao động sống",
+      "C. Công dân hạng hai",
+      "D. Đối tác kinh doanh"
+    ],
+    "correct_answer": "B"
+  },
+  {
+    "id": 3,
+    "content": "Đặc điểm của dân chủ thời kỳ Hy Lạp cổ đại là gì?",
+    "type": "MC",
+    "options": [
+      "A. Dân chủ mang tính đặc quyền giai cấp",
+      "B. Dân chủ phổ quát toàn dân",
+      "C. Ưu tiên quyền lợi cho phụ nữ",
+      "D. Không có sự phân biệt giai cấp"
+    ],
+    "correct_answer": "A"
+  },
+  {
+    "id": 4,
+    "content": "Trong xã hội phong kiến, con người thường bị ràng buộc bởi yếu tố nào để biện minh cho trật tự xã hội?",
+    "type": "MC",
+    "options": [
+      "A. Hợp đồng lao động",
+      "B. Quyền tự nhiên",
+      "C. Hiến pháp dân chủ",
+      "D. Thiên mệnh hay trật tự thần quyền"
+    ],
+    "correct_answer": "D"
+  },
+  {
+    "id": 5,
+    "content": "Văn kiện lịch sử nào năm 1789 khẳng định con người sinh ra có quyền tự nhiên và bất khả xâm phạm?",
+    "type": "MC",
+    "options": [
+      "A. Tuyên ngôn Nhân quyền và Dân quyền (Pháp)",
+      "B. Tuyên ngôn độc lập Hoa Kỳ",
+      "C. Magna Carta",
+      "D. Đường cách mệnh"
+    ],
+    "correct_answer": "A"
+  },
+  {
+    "id": 6,
+    "content": "Hạn chế lớn nhất của dân chủ tư sản là gì?",
+    "type": "MC",
+    "options": [
+      "A. Không có pháp luật",
+      "B. Không cho phép bầu cử",
+      "C. Dân chủ mang tính hình thức, bị chi phối bởi quyền sở hữu tư liệu sản xuất",
+      "D. Cấm quyền tự do ngôn luận"
+    ],
+    "correct_answer": "C"
+  },
+  {
+    "id": 7,
+    "content": "Điểm cốt lõi của Chủ nghĩa xã hội (CNXH) đối với quyền con người là gì?",
+    "type": "MC",
+    "options": [
+      "A. Tăng cường quyền sở hữu cá nhân",
+      "B. Duy trì chế độ chiếm hữu nô lệ",
+      "C. Phủ nhận hoàn toàn quyền chính trị",
+      "D. Chuyển dịch quyền lực từ 'người có của' sang 'nhân dân lao động'"
+    ],
+    "correct_answer": "D"
+  },
+  {
+    "id": 8,
+    "content": "Theo quan điểm Việt Nam, quyền nào được xem là điều kiện tiên quyết để hưởng các quyền tự do khác?",
+    "type": "MC",
+    "options": [
+      "A. Quyền kinh tế, văn hóa và xã hội (sống, làm việc, học tập...)",
+      "B. Quyền sở hữu vũ khí",
+      "C. Quyền tự do biểu tình tuyệt đối",
+      "D. Quyền cá nhân đối trọng với nhà nước"
+    ],
+    "correct_answer": "A"
+  },
+  {
+    "id": 9,
+    "content": "Quan điểm phương Tây tiếp cận nhân quyền theo hướng nào?",
+    "type": "MC",
+    "options": [
+      "A. Cá nhân thống nhất với Nhà nước",
+      "B. Cá nhân đối trọng với Nhà nước",
+      "C. Cá nhân phục tùng tuyệt đối Nhà nước",
+      "D. Không cần sự tồn tại của Nhà nước"
+    ],
+    "correct_answer": "B"
+  },
+  {
+    "id": 10,
+    "content": "Phương châm nào thể hiện quyền làm chủ thực chất của nhân dân Việt Nam?",
+    "type": "MC",
+    "options": [
+      "A. Dân làm chủ, Nhà nước quản lý theo mệnh lệnh",
+      "B. Mọi quyền lực tập trung vào giới tinh hoa",
+      "C. Dân biết, dân bàn, dân làm, dân kiểm tra, dân thụ hưởng",
+      "D. Tự do cá nhân là trên hết"
+    ],
+    "correct_answer": "C"
+  },
+  {
+    "id": 11,
+    "content": "Nhà nước Pháp quyền XHCN Việt Nam được xây dựng theo nguyên tắc nào?",
+    "type": "MC",
+    "options": [
+      "A. Của giới thượng lưu, do quân đội, vì lợi ích nhóm",
+      "B. Tam quyền phân lập hoàn toàn",
+      "C. Thần quyền trị quốc",
+      "D. Của dân, do dân, vì dân"
+    ],
+    "correct_answer": "D"
+  },
+  {
+    "id": 12,
+    "content": "Tại sao phòng chống tham nhũng được coi là bảo vệ quyền con người?",
+    "type": "MC",
+    "options": [
+      "A. Vì tham nhũng làm thất thoát nguồn lực bảo đảm các quyền cơ bản (y tế, giáo dục...)",
+      "B. Vì nó giúp tăng thu ngân sách nhà nước",
+      "C. Vì nó là hình thức kỷ luật đảng viên",
+      "D. Vì nó làm giảm quyền lực của quan chức"
+    ],
+    "correct_answer": "A"
+  },
+  {
+    "id": 13,
+    "content": "Theo CNXHKH, dân chủ xã hội chủ nghĩa là hình thức dân chủ như thế nào?",
+    "type": "MC",
+    "options": [
+      "A. Thấp hơn dân chủ tư sản",
+      "B. Sơ khai như thời cổ đại",
+      "C. Hình thức dân chủ cao nhất trong lịch sử",
+      "D. Chỉ dành cho giới trí thức"
+    ],
+    "correct_answer": "C"
+  },
+  {
+    "id": 14,
+    "content": "Bản chất kinh tế của dân chủ XHCN là dựa trên chế độ nào?",
+    "type": "MC",
+    "options": [
+      "A. Chế độ tư hữu",
+      "B. Chế độ công hữu về tư liệu sản xuất chủ yếu",
+      "C. Chế độ phân phối bình quân chủ nghĩa",
+      "D. Chế độ thị trường tự do tuyệt đối"
+    ],
+    "correct_answer": "B"
+  },
+  {
+    "id": 15,
+    "content": "Việt Nam thực hiện chính sách gì để hỗ trợ người nghèo về giáo dục?",
+    "type": "MC",
+    "options": [
+      "A. Tăng học phí để nâng chất lượng",
+      "B. Chỉ cho phép người giàu đi học",
+      "C. Cho vay nặng lãi để đóng học phí",
+      "D. Miễn giảm học phí cho học sinh, sinh viên thuộc hộ nghèo"
+    ],
+    "correct_answer": "D"
+  },
+  {
+    "id": 16,
+    "content": "Nguyên tắc nào thể hiện bản chất ưu việt của CNXH trong phát triển xã hội?",
+    "type": "MC",
+    "options": [
+      "A. Không để ai bị bỏ lại phía sau",
+      "B. Kẻ mạnh sẽ chiến thắng",
+      "C. Tự do cạnh tranh đào thải người yếu",
+      "D. Ưu tiên lợi ích của tầng lớp cầm quyền"
+    ],
+    "correct_answer": "A"
+  },
+  {
+    "id": 17,
+    "content": "Trong quan điểm nhân quyền Việt Nam, quyền luôn đi đôi với yếu tố nào?",
+    "type": "MC",
+    "options": [
+      "A. Lợi nhuận",
+      "B. Quyền lực",
+      "C. Trách nhiệm và nghĩa vụ",
+      "D. Sở thích cá nhân"
+    ],
+    "correct_answer": "C"
+  },
+  {
+    "id": 18,
+    "content": "Hành vi lợi dụng chức vụ để chiếm đoạt tài sản được gọi là gì?",
+    "type": "MC",
+    "options": [
+      "A. Tiết kiệm",
+      "B. Tham ô tài sản",
+      "C. Quản lý tài chính",
+      "D. Đầu tư công"
+    ],
+    "correct_answer": "B"
+  },
+  {
+    "id": 19,
+    "content": "Theo văn kiện Đại hội XII, nhiệm vụ nào được đặt ra để bảo vệ phụ nữ?",
+    "type": "MC",
+    "options": [
+      "A. Giảm bớt quyền lợi lao động nữ",
+      "B. Khuyến khích phụ nữ ở nhà làm nội trợ",
+      "C. Kiên quyết đấu tranh chống bạo lực và xâm hại nhân phẩm phụ nữ",
+      "D. Không cần hoàn thiện luật pháp về lao động nữ"
+    ],
+    "correct_answer": "C"
+  },
+  {
+    "id": 20,
+    "content": "Người dân thực hiện quyền làm chủ thông qua hoạt động nào?",
+    "type": "MC",
+    "options": [
+      "A. Chủ động tham gia hoạt động chính trị, giám sát và đóng góp ý kiến",
+      "B. Chỉ bầu cử 5 năm một lần",
+      "C. Phê phán mọi chính sách của nhà nước",
+      "D. Từ chối thực hiện nghĩa vụ công dân"
+    ],
+    "correct_answer": "A"
+  },
+  {
+    "id": 21,
+    "content": "Dân chủ trong xã hội tư bản chủ yếu mang tính chất gì?",
+    "type": "MC",
+    "options": [
+      "A. Thực chất",
+      "B. Toàn diện",
+      "C. Hình thức",
+      "D. Bình đẳng tuyệt đối"
+    ],
+    "correct_answer": "C"
+  },
+  {
+    "id": 22,
+    "content": "Nhà nước XHCN đóng vai trò gì trong việc thực hiện quyền con người?",
+    "type": "MC",
+    "options": [
+      "A. Đối trọng với nhân dân",
+      "B. Tước đoạt quyền lợi cá nhân",
+      "C. Đứng ngoài các quan hệ dân sự",
+      "D. Công cụ để thể chế hóa và bảo vệ quyền lợi nhân dân"
+    ],
+    "correct_answer": "D"
+  },
+  {
+    "id": 23,
+    "content": "Tại sao dân chủ phong kiến bị coi là hạ thấp nhân phẩm?",
+    "type": "MC",
+    "options": [
+      "A. Vì cá nhân chưa được thừa nhận là chủ thể độc lập",
+      "B. Vì không có vua",
+      "C. Vì quá đề cao quyền cá nhân",
+      "D. Vì áp dụng khoa học kỹ thuật"
+    ],
+    "correct_answer": "A"
+  },
+  {
+    "id": 24,
+    "content": "Trong quan điểm Phương Tây, xã hội phát triển dựa trên sự đề cao yếu tố nào?",
+    "type": "MC",
+    "options": [
+      "A. Tập thể",
+      "B. Cá nhân",
+      "C. Trật tự quân đội",
+      "D. Sự thống nhất tôn giáo"
+    ],
+    "correct_answer": "B"
+  },
+  {
+    "id": 25,
+    "content": "Chính sách 'Hỗ trợ 100% chi phí khám chữa bệnh' áp dụng cho đối tượng nào?",
+    "type": "MC",
+    "options": [
+      "A. Mọi công dân không phân biệt giàu nghèo",
+      "B. Chỉ cán bộ nhà nước",
+      "C. Hộ nghèo",
+      "D. Doanh nhân thành đạt"
+    ],
+    "correct_answer": "C"
+  },
+  {
+    "id": 26,
+    "content": "Theo CNXHKH, tham nhũng làm biến chất yếu tố nào?",
+    "type": "MC",
+    "options": [
+      "A. Thị trường",
+      "B. Khí hậu",
+      "C. Văn hóa dân gian",
+      "D. Quyền lực nhà nước"
+    ],
+    "correct_answer": "D"
+  },
+  {
+    "id": 27,
+    "content": "Chương trình 'Xóa nhà tạm, nhà dột nát' nhằm thực hiện quyền nào?",
+    "type": "MC",
+    "options": [
+      "A. Quyền có nơi ở an toàn và nâng cao đời sống",
+      "B. Quyền tự do cư trú",
+      "C. Quyền sở hữu đất đai",
+      "D. Quyền bầu cử"
+    ],
+    "correct_answer": "A"
+  },
+  {
+    "id": 28,
+    "content": "Sự khác biệt về trọng tâm nhân quyền giữa Việt Nam và Phương Tây là gì?",
+    "type": "MC",
+    "options": [
+      "A. Việt Nam trọng cá nhân, Phương Tây trọng tập thể",
+      "B. Việt Nam trọng quyền kinh tế-xã hội, Phương Tây trọng quyền dân sự-chính trị",
+      "C. Việt Nam không có nhân quyền",
+      "D. Phương Tây không có quyền bầu cử"
+    ],
+    "correct_answer": "B"
+  },
+  {
+    "id": 29,
+    "content": "Để bảo đảm công bằng, Nhà nước XHCN thực hiện chính sách phân phối như thế nào?",
+    "type": "MC",
+    "options": [
+      "A. Phân phối công bằng thành quả phát triển",
+      "B. Chỉ phân phối cho người giàu",
+      "C. Không thực hiện phân phối",
+      "D. Phân phối theo may rủi"
+    ],
+    "correct_answer": "A"
+  },
+  {
+    "id": 30,
+    "content": "Trong quan điểm Việt Nam, đất nước độc lập và ổn định có vai trò gì đối với quyền cá nhân?",
+    "type": "MC",
+    "options": [
+      "A. Làm hạn chế quyền cá nhân",
+      "B. Là tiền đề để bảo đảm quyền cá nhân lâu dài và thực chất",
+      "C. Không có liên quan",
+      "D. Chỉ phục vụ lợi ích của Nhà nước"
+    ],
+    "correct_answer": "B"
+  },
+  {
+    "id": 31,
+    "content": "Quyền con người trong xã hội chiếm hữu nô lệ thuộc về ai?",
+    "type": "MC",
+    "options": [
+      "A. Toàn dân",
+      "B. Nô lệ nam giới",
+      "C. Người ngoại bang",
+      "D. Tầng lớp chủ nô và quý tộc"
+    ],
+    "correct_answer": "D"
+  },
+  {
+    "id": 32,
+    "content": "Hệ thống 'kiểm soát - đối trọng' là đặc trưng của mô hình nào?",
+    "type": "MC",
+    "options": [
+      "A. Dân chủ XHCN",
+      "B. Chế độ phong kiến",
+      "C. Dân chủ Phương Tây",
+      "D. Chế độ nô lệ"
+    ],
+    "correct_answer": "C"
+  },
+  {
+    "id": 33,
+    "content": "Mục tiêu tối thượng của CNXH đối với con người là gì?",
+    "type": "MC",
+    "options": [
+      "A. Giải phóng con người triệt để",
+      "B. Tăng trưởng GDP nhanh nhất",
+      "C. Xây dựng quân đội mạnh nhất",
+      "D. Mở rộng ảnh hưởng quốc tế"
+    ],
+    "correct_answer": "A"
+  },
+  {
+    "id": 34,
+    "content": "Cơ chế 'Dân thụ hưởng' trong phương châm dân chủ Việt Nam có nghĩa là gì?",
+    "type": "MC",
+    "options": [
+      "A. Người dân phải đóng góp nhiều hơn",
+      "B. Người dân được hưởng thành quả của sự phát triển",
+      "C. Người dân tự mình hưởng thụ không cần làm việc",
+      "D. Chỉ dành cho người có công"
+    ],
+    "correct_answer": "B"
+  },
+  {
+    "id": 35,
+    "content": "Hành vi 'Giả mạo trong công tác vì vụ lợi' là một biểu hiện của bệnh gì?",
+    "type": "MC",
+    "options": [
+      "A. Bệnh thành tích",
+      "B. Quan liêu",
+      "C. Thiếu năng lực",
+      "D. Tham nhũng"
+    ],
+    "correct_answer": "D"
+  },
+  {
+    "id": 36,
+    "content": "Quyền 'được sống trong điều kiện đảm bảo nhân phẩm' thuộc nhóm quyền nào?",
+    "type": "MC",
+    "options": [
+      "A. Quyền dân sự",
+      "B. Quyền kinh tế, xã hội và văn hóa",
+      "C. Quyền chính trị",
+      "D. Quyền tự nhiên"
+    ],
+    "correct_answer": "B"
+  },
+  {
+    "id": 37,
+    "content": "Nhà nước XHCN Việt Nam là 'Nhà nước của dân' nghĩa là?",
+    "type": "MC",
+    "options": [
+      "A. Dân sở hữu toàn bộ tài sản nhà nước",
+      "B. Mọi quyền lực thuộc về nhân dân",
+      "C. Dân phải làm thay công việc của cán bộ",
+      "D. Nhà nước không có quyền hạn gì"
+    ],
+    "correct_answer": "B"
+  },
+  {
+    "id": 38,
+    "content": "Bất bình đẳng sâu sắc trong xã hội tư bản xuất phát từ đâu?",
+    "type": "MC",
+    "options": [
+      "A. Chế độ tư hữu tư liệu sản xuất",
+      "B. Thiếu pháp luật",
+      "C. Sự khác biệt về sắc tộc",
+      "D. Do dân số quá đông"
+    ],
+    "correct_answer": "A"
+  },
+  {
+    "id": 39,
+    "content": "Trách nhiệm của công dân trong việc bảo vệ lợi ích chung là gì?",
+    "type": "MC",
+    "options": [
+      "A. Chỉ quan tâm đến gia đình mình",
+      "B. Giao phó hoàn toàn cho công an",
+      "C. Không cần làm gì nếu không có tiền thưởng",
+      "D. Có ý thức bảo vệ tài sản công và chống lãng phí"
+    ],
+    "correct_answer": "D"
+  },
+  {
+    "id": 40,
+    "content": "Tiến trình lịch sử xã hội loài người thực chất là gì?",
+    "type": "MC",
+    "options": [
+      "A. Lịch sử đấu tranh cho tự do, nhân phẩm và quyền con người",
+      "B. Lịch sử các cuộc chiến tranh giành lãnh thổ",
+      "C. Lịch sử phát triển của các loại máy móc",
+      "D. Lịch sử của các tôn giáo"
+    ],
+    "correct_answer": "A"
+  },
+  {
+    "id": 41,
+    "content": "Vì sao nô lệ bị gọi là 'công cụ lao động sống'?",
+    "type": "MC",
+    "options": [
+      "A. Vì họ làm việc rất hiệu quả",
+      "B. Vì họ không biết nói",
+      "C. Vì họ không có địa vị pháp lý và bị coi là tài sản của chủ nô",
+      "D. Vì họ được chủ nô trả lương cao"
+    ],
+    "correct_answer": "C"
+  },
+  {
+    "id": 42,
+    "content": "Nhân quyền Phương Tây coi quyền con người là 'Natural Rights' có nghĩa là gì?",
+    "type": "MC",
+    "options": [
+      "A. Quyền do thiên nhiên ban tặng",
+      "B. Quyền không cần pháp luật quy định",
+      "C. Quyền chỉ dành cho người sống ở vùng nông thôn",
+      "D. Quyền tự nhiên, vốn có khi sinh ra"
+    ],
+    "correct_answer": "D"
+  },
+  {
+    "id": 43,
+    "content": "Sự kết nối giữa 'Quyền' và 'Nghĩa vụ' tại Việt Nam nhằm tránh tình trạng gì?",
+    "type": "MC",
+    "options": [
+      "A. Tự do vô chính phủ",
+      "B. Độc tài",
+      "C. Phát triển kinh tế quá nhanh",
+      "D. Sự can thiệp của nước ngoài"
+    ],
+    "correct_answer": "A"
+  },
+  {
+    "id": 44,
+    "content": "Cụm từ nào mô tả đúng nhất sự vận động của dân chủ?",
+    "type": "MC",
+    "options": [
+      "A. Trạng thái tĩnh",
+      "B. Quá trình vận động lịch sử",
+      "C. Sự may mắn ngẫu nhiên",
+      "D. Ý muốn của một vài cá nhân"
+    ],
+    "correct_answer": "B"
+  },
+  {
+    "id": 45,
+    "content": "Trong quản lý xã hội, Việt Nam hướng tới xây dựng loại hình con người nào?",
+    "type": "MC",
+    "options": [
+      "A. Con người chỉ biết hưởng thụ",
+      "B. Con người mới xã hội chủ nghĩa",
+      "C. Con người tách rời cộng đồng",
+      "D. Con người chỉ lo cho lợi ích cá nhân"
+    ],
+    "correct_answer": "B"
+  },
+  {
+    "id": 46,
+    "content": "Hành động 'Dạy nghề & Tạo việc làm' cho người nghèo thể hiện?",
+    "type": "MC",
+    "options": [
+      "A. Sự ban ơn của Nhà nước",
+      "B. Cách để thu nhiều thuế hơn",
+      "C. Chính sách bắt buộc lao động",
+      "D. Trách nhiệm bảo đảm quyền lao động và an sinh xã hội"
+    ],
+    "correct_answer": "D"
+  },
+  {
+    "id": 47,
+    "content": "Vai trò của pháp luật trong xã hội XHCN là gì?",
+    "type": "MC",
+    "options": [
+      "A. Chỉ để trừng trị nhân dân",
+      "B. Thể chế hóa và bảo vệ quyền con người",
+      "C. Bảo vệ lợi ích của thiểu số người giàu",
+      "D. Thay thế hoàn toàn đạo đức"
+    ],
+    "correct_answer": "B"
+  },
+  {
+    "id": 48,
+    "content": "Tham nhũng được coi là giặc gì trong công cuộc xây dựng đất nước?",
+    "type": "MC",
+    "options": [
+      "A. Giặc ngoại xâm",
+      "B. Giặc dốt",
+      "C. Giặc đói",
+      "D. Giặc nội xâm"
+    ],
+    "correct_answer": "D"
+  },
+  {
+    "id": 49,
+    "content": "Mối quan hệ giữa 'Cá nhân' và 'Nhà nước' tại Việt Nam là gì?",
+    "type": "MC",
+    "options": [
+      "A. Đối kháng",
+      "B. Không liên quan",
+      "C. Thống nhất",
+      "D. Cá nhân làm chủ hoàn toàn Nhà nước"
+    ],
+    "correct_answer": "C"
+  },
+  {
+    "id": 50,
+    "content": "Quyền con người được cụ thể hóa rõ nhất trong văn bản pháp lý nào?",
+    "type": "MC",
+    "options": [
+      "A. Nội quy công ty",
+      "B. Đơn thỉnh nguyện",
+      "C. Thư ngỏ",
+      "D. Hiến pháp và pháp luật"
+    ],
+    "correct_answer": "D"
+  },
+  {
+    "id": 51,
+    "content": "Trong dân chủ XHCN, người dân tham gia quản lý xã hội theo cách nào?",
+    "type": "MC",
+    "options": [
+      "A. Chỉ gián tiếp qua đại biểu",
+      "B. Cả trực tiếp và gián tiếp",
+      "C. Chỉ trực tiếp tại cơ sở",
+      "D. Không được tham gia"
+    ],
+    "correct_answer": "B"
+  },
+  {
+    "id": 52,
+    "content": "Một trong những mục tiêu của việc 'Chỉnh đốn Đảng' là gì?",
+    "type": "MC",
+    "options": [
+      "A. Quét sạch chủ nghĩa cá nhân và chống tham nhũng",
+      "B. Giảm số lượng đảng viên",
+      "C. Tăng lương cho cán bộ",
+      "D. Thay đổi tên Đảng"
+    ],
+    "correct_answer": "A"
+  },
+  {
+    "id": 53,
+    "content": "Sự ra đời của dân chủ XHCN là kết quả của việc giải phóng lực lượng nào?",
+    "type": "MC",
+    "options": [
+      "A. Giai cấp chủ nô",
+      "B. Giới quý tộc phong kiến",
+      "C. Nhân dân lao động",
+      "D. Các nhà tư bản"
+    ],
+    "correct_answer": "C"
+  },
+  {
+    "id": 54,
+    "content": "Tại Việt Nam, quyền con người được đặt trong sự hài hòa với yếu tố nào?",
+    "type": "MC",
+    "options": [
+      "A. Lợi ích tập thể và quốc gia",
+      "B. Lợi ích cá nhân tối cao",
+      "C. Chỉ lợi ích của Đảng",
+      "D. Lợi ích của các tập đoàn nước ngoài"
+    ],
+    "correct_answer": "A"
+  },
+  {
+    "id": 55,
+    "content": "Chủ nghĩa xã hội khoa học nhấn mạnh điều gì về tự do cá nhân?",
+    "type": "MC",
+    "options": [
+      "A. Tự do là tuyệt đối không cần điều kiện",
+      "B. Tự do chỉ dành cho người có học thức",
+      "C. Tự do là sự phủ định pháp luật",
+      "D. Tự do không thể tách rời điều kiện vật chất và công bằng xã hội"
+    ],
+    "correct_answer": "D"
+  },
+  {
+    "id": 56,
+    "content": "Công dân có nghĩa vụ gì đối với sự phát triển chung của đất nước?",
+    "type": "MC",
+    "options": [
+      "A. Chỉ cần đóng thuế",
+      "B. Lao động trung thực và sáng tạo",
+      "C. Không cần quan tâm nếu không có chức vụ",
+      "D. Chỉ cần tuân theo mệnh lệnh"
+    ],
+    "correct_answer": "B"
+  },
+  {
+    "id": 57,
+    "content": "Dân chủ tư sản là một bước tiến so với chế độ nào?",
+    "type": "MC",
+    "options": [
+      "A. Chế độ phong kiến",
+      "B. Dân chủ XHCN",
+      "C. Thời kỳ hiện đại",
+      "D. Không có bước tiến nào"
+    ],
+    "correct_answer": "A"
+  },
+  {
+    "id": 58,
+    "content": "Lợi dụng chức vụ để 'nhũng nhiễu' dân nhằm mục đích gì bị coi là tham nhũng?",
+    "type": "MC",
+    "options": [
+      "A. Vì công việc",
+      "B. Vì tập thể",
+      "C. Vì vụ lợi",
+      "D. Vì sơ suất"
+    ],
+    "correct_answer": "C"
+  },
+  {
+    "id": 59,
+    "content": "Thông điệp tổng kết về hành trình tìm kiếm dân chủ là gì?",
+    "type": "MC",
+    "options": [
+      "A. Tìm kiếm sự thống trị của một nhóm người",
+      "B. Quá trình tích lũy tài sản cá nhân",
+      "C. Sự thay thế các vị vua",
+      "D. Hành trình đi tìm tự do, nhân phẩm và quyền làm chủ vận mệnh"
+    ],
+    "correct_answer": "D"
+  },
+  {
+    "id": 60,
+    "content": "Quyền được chăm sóc y tế tại Việt Nam được coi là gì?",
+    "type": "MC",
+    "options": [
+      "A. Quyền cơ bản của mọi công dân",
+      "B. Đặc quyền của người giàu",
+      "C. Dịch vụ kinh doanh thuần túy",
+      "D. Sự hỗ trợ tùy tâm của bác sĩ"
+    ],
+    "correct_answer": "A"
+  },
+  {
+    "id": 61,
+    "content": "Lịch sử xã hội loài người thực chất là lịch sử đấu tranh cho tự do, nhân phẩm và quyền _______. (8 chữ)",
+    "type": "text",
+    "correct_answer": "con người"
+  },
+  {
+    "id": 62,
+    "content": "Trong xã hội nô lệ, nô lệ bị coi là _______ lao động sống. (6 chữ)",
+    "type": "text",
+    "correct_answer": "công cụ"
+  },
+  {
+    "id": 63,
+    "content": "Xã hội phong kiến biện minh trật tự xã hội bằng thiên mệnh hay trật tự _______. (9 chữ)",
+    "type": "text",
+    "correct_answer": "thần quyền"
+  },
+  {
+    "id": 64,
+    "content": "Tuyên ngôn Nhân quyền và Dân quyền (1789) khẳng định con người có các quyền _______ và bất khả xâm phạm. (8 chữ)",
+    "type": "text",
+    "correct_answer": "tự nhiên"
+  },
+  {
+    "id": 65,
+    "content": "Dân chủ tư sản chủ yếu mang tính _______, chưa giải quyết được bất bình đẳng kinh tế. (8 chữ)",
+    "type": "text",
+    "correct_answer": "hình thức"
+  },
+  {
+    "id": 66,
+    "content": "CNXH đặt mục tiêu giải phóng con người khỏi áp bức giai cấp và _______ kinh tế. (7 chữ)",
+    "type": "text",
+    "correct_answer": "bất công"
+  },
+  {
+    "id": 67,
+    "content": "Dân chủ XHCN là sự chuyển dịch quyền lực từ người có của sang nhân dân _______. (7 chữ)",
+    "type": "text",
+    "correct_answer": "lao động"
+  },
+  {
+    "id": 68,
+    "content": "Quan điểm phương Tây đặt trọng tâm vào cái _______ cá nhân. (3 chữ)",
+    "type": "text",
+    "correct_answer": "tôi"
+  },
+  {
+    "id": 69,
+    "content": "Quan điểm Việt Nam đề cao sự thống nhất giữa cá nhân, tập thể và _______. (7 chữ)",
+    "type": "text",
+    "correct_answer": "Nhà nước"
+  },
+  {
+    "id": 70,
+    "content": "Nhân quyền Việt Nam gắn liền với đời sống thực tế thông qua các quyền kinh tế, _______ và xã hội. (6 chữ)",
+    "type": "text",
+    "correct_answer": "văn hóa"
+  },
+  {
+    "id": 71,
+    "content": "Phương châm dân chủ Việt Nam là: dân biết, dân bàn, dân làm, dân kiểm tra, dân _______. (8 chữ)",
+    "type": "text",
+    "correct_answer": "thụ hưởng"
+  },
+  {
+    "id": 72,
+    "content": "Nhà nước XHCN là công cụ chính trị của giai cấp công nhân và nhân dân _______. (7 chữ)",
+    "type": "text",
+    "correct_answer": "lao động"
+  },
+  {
+    "id": 73,
+    "content": "Giá trị nhân văn sâu sắc của CNXHKH là không để ai bị _______ phía sau. (5 chữ)",
+    "type": "text",
+    "correct_answer": "bỏ lại"
+  },
+  {
+    "id": 74,
+    "content": "Việt Nam thực hiện chương trình xóa nhà tạm, nhà _______ cho người nghèo. (6 chữ)",
+    "type": "text",
+    "correct_answer": "dột nát"
+  },
+  {
+    "id": 75,
+    "content": "Tham nhũng là hành vi lợi dụng chức vụ để vì lợi ích cá nhân, hay còn gọi là _______. (5 chữ)",
+    "type": "text",
+    "correct_answer": "vụ lợi"
+  },
+  {
+    "id": 76,
+    "content": "Phòng chống tham nhũng chính là để bảo vệ _______ con người. (5 chữ)",
+    "type": "text",
+    "correct_answer": "quyền"
+  },
+  {
+    "id": 77,
+    "content": "Công dân có trách nhiệm tuân thủ pháp luật để duy trì trật tự và _______ xã hội. (8 chữ)",
+    "type": "text",
+    "correct_answer": "công bằng"
+  },
+  {
+    "id": 78,
+    "content": "Dân chủ không phải trạng thái tĩnh mà là một quá trình _______ lịch sử. (7 chữ)",
+    "type": "text",
+    "correct_answer": "vận động"
+  },
+  {
+    "id": 79,
+    "content": "Ở Phương Tây, Nhà nước được nhìn nhận như chủ thể có nguy cơ _______ quyền cá nhân. (7 chữ)",
+    "type": "text",
+    "correct_answer": "xâm phạm"
+  },
+  {
+    "id": 80,
+    "content": "Tại Việt Nam, Nhà nước đóng vai trò là _______ để nhân dân thực hiện quyền lực. (6 chữ)",
+    "type": "text",
+    "correct_answer": "công cụ"
+  },
+  {
+    "id": 81,
+    "content": "Quyền con người luôn đi đôi với trách nhiệm và _______ công dân. (7 chữ)",
+    "type": "text",
+    "correct_answer": "nghĩa vụ"
+  },
+  {
+    "id": 82,
+    "content": "Bản chất kinh tế của CNXH là dựa trên chế độ _______ về tư liệu sản xuất. (7 chữ)",
+    "type": "text",
+    "correct_answer": "công hữu"
+  },
+  {
+    "id": 83,
+    "content": "Tham nhũng làm cho quyền lực nhà nước bị _______. (6 chữ)",
+    "type": "text",
+    "correct_answer": "tha hóa"
+  },
+  {
+    "id": 84,
+    "content": "Một trong những biểu hiện tham nhũng là nhận _______. (5 chữ)",
+    "type": "text",
+    "correct_answer": "hối lộ"
+  },
+  {
+    "id": 85,
+    "content": "Đảng XHCN yêu cầu rèn luyện đạo đức, quét sạch chủ nghĩa _______. (6 chữ)",
+    "type": "text",
+    "correct_answer": "cá nhân"
+  },
+  {
+    "id": 86,
+    "content": "Hỗ trợ đóng bảo hiểm _______ cho hộ nghèo là chính sách an sinh xã hội. (3 chữ)",
+    "type": "text",
+    "correct_answer": "y tế"
+  },
+  {
+    "id": 87,
+    "content": "Dân chủ XHCN hướng tới sự phát triển _______ cho tất cả mọi người. (8 chữ)",
+    "type": "text",
+    "correct_answer": "toàn diện"
+  },
+  {
+    "id": 88,
+    "content": "Quyền bầu cử là một phần của dân chủ nhưng không phải là tất cả dân chủ _______ chất. (4 chữ)",
+    "type": "text",
+    "correct_answer": "thực"
+  },
+  {
+    "id": 89,
+    "content": "Mỗi người dân phải có ý thức bảo vệ tài sản _______. (4 chữ)",
+    "type": "text",
+    "correct_answer": "công"
+  },
+  {
+    "id": 90,
+    "content": "Thực hiện dân chủ là 'chìa khóa' để phát huy _______ của nhân dân. (7 chữ)",
+    "type": "text",
+    "correct_answer": "sức mạnh"
+  },
+  {
+    "id": 91,
+    "content": "Bất bình đẳng trong xã hội tư bản khiến tự do của người nghèo mang tính _______. (8 chữ)",
+    "type": "text",
+    "correct_answer": "tương đối"
+  },
+  {
+    "id": 92,
+    "content": "Người cao tuổi thuộc hộ nghèo được hưởng trợ cấp _______ xã hội. (6 chữ)",
+    "type": "text",
+    "correct_answer": "hưu trí"
+  },
+  {
+    "id": 93,
+    "content": "Dân chủ XHCN nhấn mạnh quyền làm chủ thực chất trong mọi _______ của đời sống. (7 chữ)",
+    "type": "text",
+    "correct_answer": "lĩnh vực"
+  },
+  {
+    "id": 94,
+    "content": "Nhà nước pháp quyền XHCN bảo vệ quyền con người bằng _______. (8 chữ)",
+    "type": "text",
+    "correct_answer": "pháp luật"
+  },
+  {
+    "id": 95,
+    "content": "Mục tiêu của phát triển bền vững là thu hẹp khoảng cách _______. (9 chữ)",
+    "type": "text",
+    "correct_answer": "giàu nghèo"
+  },
+  {
+    "id": 96,
+    "content": "Tự do cá nhân gắn liền với điều kiện vật chất và công bằng _______. (5 chữ)",
+    "type": "text",
+    "correct_answer": "xã hội"
+  },
+  {
+    "id": 97,
+    "content": "Nghiên cứu dân chủ là nghiên cứu hành trình đi tìm _______ của con người. (4 chữ)",
+    "type": "text",
+    "correct_answer": "tự do"
+  },
+  {
+    "id": 98,
+    "content": "Công dân cần tích cực đấu tranh chống các hành vi xâm hại như tham nhũng, _______. (7 chữ)",
+    "type": "text",
+    "correct_answer": "lãng phí"
+  },
+  {
+    "id": 99,
+    "content": "Dân chủ Phương Tây đề cao vai trò của xã hội _______ để kiểm soát quyền lực. (5 chữ)",
+    "type": "text",
+    "correct_answer": "dân sự"
+  },
+  {
+    "id": 100,
+    "content": "Mục tiêu cuối cùng của cả hai hệ thống nhân quyền đều gặp nhau ở _______. (8 chữ)",
+    "type": "text",
+    "correct_answer": "con người"
+  }
+]
