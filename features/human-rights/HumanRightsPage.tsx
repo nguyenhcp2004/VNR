@@ -39,47 +39,47 @@ export default function HumanRightsPage() {
   const puzzles: Puzzle[] = [
     {
       id: 1,
-      word: 'LÀM CHỦ',
-      hint: 'Quyền lực thuộc về nhân dân (6 chữ)',
+      word: 'VIỆT MINH',
+      hint: 'Mặt trận Việt Nam Độc lập Đồng minh thành lập năm 1941 nhằm tập hợp mọi lực lượng yêu nước để đấu tranh giành độc lập (8 chữ)',
       imageUrls: [
-        '/puzzle/lam.webp',
-        '/puzzle/chu.png',
+        '/puzzle/viet_minh_flag.png',
+        '/puzzle/viet_minh_members.jpg',
       ]
     },
     {
       id: 2,
-      word: 'PHÁP LUẬT',
-      hint: 'Công cụ bảo vệ quyền con người (8 chữ)',
+      word: 'VIỆT BẮC',
+      hint: 'Căn cứ địa cách mạng quan trọng của Đảng trong giai đoạn chuẩn bị Tổng khởi nghĩa (7 chữ)',
       imageUrls: [
-        '/puzzle/phap.jpg',
-        '/puzzle/luat.png',
+        '/puzzle/viet_bac_map.jpg',
+        '/puzzle/tan_trao_banyan_tree.jpg',
       ]
     },
     {
       id: 3,
-      word: 'KIỂM TRA',
-      hint: 'Dân giám sát quyền lực (7 chữ)',
+      word: 'GIẢI PHÓNG QUÂN',
+      hint: 'Đội Việt Nam Tuyên truyền Giải phóng quân thành lập năm 1944, tiền thân của Quân đội nhân dân Việt Nam (13 chữ)',
       imageUrls: [
-        '/puzzle/kiem.webp',
-        '/puzzle/tra.jpeg',
+        '/puzzle/vn_liberation_army_1944.jpg',
+        '/puzzle/vo_nguyen_giap_1944.jpg',
       ]
     },
     {
       id: 4,
-      word: 'AN SINH',
-      hint: 'Đảm bảo cuộc sống cho mọi người (6 chữ)',
+      word: 'TỔNG KHỞI NGHĨA',
+      hint: 'Cuộc nổi dậy của toàn dân tháng 8-1945 nhằm giành chính quyền trên phạm vi cả nước (13 chữ)',
       imageUrls: [
-        '/puzzle/an.webp',
-        '/puzzle/sinh.webp',
+        '/puzzle/august_revolution_hanoi.jpg',
+        '/puzzle/people_seize_power_1945.jpg',
       ]
     },
     {
       id: 5,
-      word: 'PHÁT TRIỂN',
-      hint: 'Mục tiêu toàn diện và bền vững (9 chữ)',
+      word: 'TUYÊN NGÔN ĐỘC LẬP',
+      hint: 'Văn kiện do Chủ tịch Hồ Chí Minh đọc ngày 2-9-1945, khai sinh nước Việt Nam Dân chủ Cộng hòa (16 chữ)',
       imageUrls: [
-        '/puzzle/phat.png',
-        '/puzzle/trien.jpg',
+        '/puzzle/ba_dinh_1945.jpg',
+        '/puzzle/ho_chi_minh_declaration.jpg',
       ]
     }
   ]
@@ -244,7 +244,7 @@ export default function HumanRightsPage() {
                     Trò chơi giải mã
                   </h1>
                   <p className="text-xl text-amber-200/70">
-                    Tìm ra 5 trụ cột nhân quyền trong XHCN
+                    Tìm ra 5 từ khóa về Cách mạng Tháng Tám
                   </p>
                   <div className="mt-4">
                     <span className="text-amber-300 text-lg font-semibold">
@@ -389,7 +389,7 @@ export default function HumanRightsPage() {
                 transition={{ delay: 0.3 }}
                 className="text-4xl md:text-6xl font-bold text-amber-100 mb-12 text-center"
               >
-                5 TRỤ CỘT NHÂN QUYỀN TRONG XHCN
+                5 TỪ KHÓA CÁCH MẠNG THÁNG TÁM
               </motion.h2>
 
               {/* Words in Circle Formation */}
