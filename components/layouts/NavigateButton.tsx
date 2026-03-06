@@ -22,17 +22,17 @@ const NavigateButton = () => {
   const routes = [
     { name: "Trang chủ", path: "/", icon: Home },
 
-    { name: "So sánh quan điểm", path: "/compare", icon: Scale },
+    { name: "Phản biện quan điểm sai lệch", path: "/compare", icon: Scale },
     {
-      name: "Con người trong XHCN",
+      name: "Trò chơi đoán từ khóa",
       path: "/human-rights",
       icon: PersonStanding,
     },
-    {
-      name: "Thực tiễn tại Việt Nam",
-      path: "/thuc-tien-hien-nay",
-      icon: ClipboardList,
-    },
+    // {
+    //   name: "Thực tiễn tại Việt Nam",
+    //   path: "/thuc-tien-hien-nay",
+    //   icon: ClipboardList,
+    // },
     { name: "Báo cáo AI", path: "/used-ai", icon: Bot },
     {
       name: "Triển lãm số",

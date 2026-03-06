@@ -106,7 +106,7 @@ const TypewriterText = ({
 };
 
 const AnimatedTitle = () => {
-  const text = " HÀNH TRÌNH NHÂN QUYỀN - TỪ QUAN NIỆM ĐẾN HÀNH ĐỘNG";
+  const text = " CÁCH MẠNG THÁNG TÁM 1945 - BƯỚC NGOẶT LỊCH SỬ";
   const titleRef = useRef<HTMLHeadingElement>(null);
   const charsRef = useRef<(HTMLSpanElement | null)[]>([]);
   const underlineContainerRef = useRef<HTMLDivElement>(null);
@@ -414,7 +414,7 @@ const AnimatedTitle = () => {
         {/* Card Container for Quote */}
         <div className="relative rounded-2xl border-2 border-amber-700/40 bg-black/20 backdrop-blur-sm p-3">
           <TypewriterText
-            text="Quyền con người không chỉ là những dòng chữ trên giấy, mà phải được đảm bảo bằng việc xóa bỏ các điều kiện gây ra sự bất bình đẳng trong đời sống kinh tế - xã hội."
+            text="Cách mạng Tháng Tám năm 1945 thành công đã mở ra bước ngoặt lớn trong lịch sử dân tộc Việt Nam, đưa đất nước bước vào kỷ nguyên mới - kỷ nguyên độc lập dân tộc gắn liền với chủ nghĩa xã hội."
             delay={5.5}
             className={`text-lg sm:text-xl md:text-2xl lg:text-3xl font-normal leading-relaxed text-center ${dancingScript.className}`}
             style={{

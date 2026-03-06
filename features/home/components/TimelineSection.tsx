@@ -72,12 +72,12 @@ const TimelineSection = ({
         <div ref={headerRef} className="text-center mb-16">
           <div className="flex items-center justify-center gap-4 mb-4">
             <h2 className="text-5xl md:text-6xl font-bold text-amber-100">
-              Timeline
+              Các cột mốc lịch sử
             </h2>
           </div>
 
           <p className="text-amber-200/80 text-lg max-w-2xl mx-auto">
-            Quá trình hình thành và phát triển của quyền con người qua các hình thái xã hội.
+            Quá trình chuẩn bị và tiến hành Cách mạng Tháng Tám năm 1945.
           </p>
         </div>
 
