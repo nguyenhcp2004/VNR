@@ -1,8 +1,4 @@
 {
-  "anh1.jpg": {
-    "title": "Hồ Chí Minh đọc Tuyên ngôn Độc lập (2/9/1945)",
-    "description": "Chủ tịch Hồ Chí Minh đọc Tuyên ngôn Độc lập tại Quảng trường Ba Đình, khai sinh nước Việt Nam Dân chủ Cộng hòa."
-  },
   "anh2.jpg": {
     "title": "Quảng trường Ba Đình ngày 2/9/1945",
     "description": "Hàng vạn nhân dân tập trung tại Ba Đình để nghe tuyên bố độc lập của Việt Nam."
@@ -14,10 +10,6 @@
   "anh4.jpg": {
     "title": "Biểu tình tại Nhà hát Lớn Hà Nội (19/8/1945)",
     "description": "Hàng vạn người dân Hà Nội tập trung trước Nhà hát Lớn trong cuộc Tổng khởi nghĩa."
-  },
-  "anh5.jpg": {
-    "title": "Nhân dân Hà Nội chiếm Phủ Khâm sai",
-    "description": "Nhân dân Hà Nội tiến vào Phủ Khâm sai Bắc Bộ giành chính quyền ngày 19/8/1945."
   },
   "anh6.jpg": {
     "title": "Nhân dân Sài Gòn mừng thắng lợi cách mạng",
@@ -31,12 +23,12 @@
     "title": " Đội Việt Nam Tuyên truyền Giải phóng quân (1944)",
     "description": "Đội Việt Nam Tuyên truyền Giải phóng quân – tiền thân của Quân đội nhân dân Việt Nam."
   },
-  "anh9.jpg": {
-    "title": "Lễ tuyên thệ của đội quân giải phóng",
-    "description": "Các chiến sĩ đọc lời tuyên thệ tại rừng Trần Hưng Đạo (Cao Bằng) năm 1944."
-  },
   "anh10.jpg": {
     "title": "Đại tướng Võ Nguyên Giáp duyệt đội quân giải phóng",
     "description": "Võ Nguyên Giáp duyệt đội quân giải phóng sau thắng lợi cách mạng."
+  },
+  "anh13.webp": {
+    "title": "Việt Minh tổ chức mít tinh năm 1945",
+    "description": "Các cuộc mít tinh do Việt Minh tổ chức trước Tổng khởi nghĩa."
   }
 }

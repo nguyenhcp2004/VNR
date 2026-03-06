@@ -21,26 +21,25 @@ const NavigateButton = () => {
 
   const routes = [
     { name: "Trang chủ", path: "/", icon: Home },
-
     { name: "Phản biện quan điểm sai lệch", path: "/compare", icon: Scale },
     {
       name: "Trò chơi đoán từ khóa",
       path: "/human-rights",
       icon: PersonStanding,
     },
+    { name: "Game", path: "/game", icon: Gamepad2 },
     // {
     //   name: "Thực tiễn tại Việt Nam",
     //   path: "/thuc-tien-hien-nay",
     //   icon: ClipboardList,
     // },
-    { name: "Báo cáo AI", path: "/used-ai", icon: Bot },
     {
       name: "Triển lãm số",
-      path: "https://museum3d.vercel.app/",
+      path: "https://vnr-museum.vercel.app/",
       icon: Landmark,
       external: true,
     },
-    { name: "Game", path: "/game", icon: Gamepad2 },
+    { name: "Báo cáo AI", path: "/used-ai", icon: Bot },
   ];
 
   // Initial animation on mount
