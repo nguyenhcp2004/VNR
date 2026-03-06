@@ -1,6 +1,6 @@
 "use client";
 
-import { posts as defaultPosts } from "@/features/tai-lieu/data";
+import { posts as defaultPosts } from "@/common/constants/posts";
 import { PostType } from "@/common/types/post.type";
 import { TimelineItem } from "@/features/home/components/TimelineItem";
 import { useEffect, useRef } from "react";
@@ -59,38 +59,10 @@ const TimelineSection = ({
     }
   }, []);
 
-  // Sort posts by milestone date (year + month)
-  // Handles formats: "1939", "1941–1944", "11-1939", "02-09-1945"
-  // Returns YYYYMM as number for comparison (e.g., 194503 for March 1945)
-  const extractDate = (milestone: string): number => {
-    // Handle year range with en-dash (e.g., "1941–1944") - use start year, assume month 01
-    if (milestone.includes("–")) {
-      const year = parseInt(milestone.split("–")[0]);
-      return year * 100 + 1;
-    }
-    
-    const parts = milestone.split("-");
-    
-    if (parts.length === 1) {
-      // Plain year (e.g., "1939") - assume month 01
-      return parseInt(parts[0]) * 100 + 1;
-    } else if (parts.length === 2) {
-      // MM-YYYY format (e.g., "11-1939")
-      const month = parseInt(parts[0]);
-      const year = parseInt(parts[1]);
-      return year * 100 + month;
-    } else if (parts.length === 3) {
-      // DD-MM-YYYY format (e.g., "02-09-1945")
-      const month = parseInt(parts[1]);
-      const year = parseInt(parts[2]);
-      return year * 100 + month;
-    }
-    
-    return 0;
-  };
-
+  // Sort posts by "cột mốc" number (id) in descending order
+  // So "Cột mốc 7" appears at top, "Cột mốc 1" at bottom
   const sortedPosts = [...posts]
-    .sort((a, b) => extractDate(b.milestone) - extractDate(a.milestone))
+    .sort((a, b) => b.id - a.id)
     .slice(0, 10); // Limit to first 10 milestones
 
   return (
