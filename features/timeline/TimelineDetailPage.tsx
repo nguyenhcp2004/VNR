@@ -42,11 +42,11 @@ const TimelineDetailPage: React.FC<TimelineDetailPageProps> = ({ post }) => {
       <div className="max-w-4xl mx-auto">
         {/* Back Button */}
         <Link
-          href="/timeline"
+          href="/"
           className="inline-flex items-center gap-2 text-white/80 hover:text-white mb-8 transition-colors group"
         >
           <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
-          Quay lại Timeline
+          Quay lại Trang chủ
         </Link>
 
         {/* Header */}
