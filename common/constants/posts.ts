@@ -239,7 +239,9 @@ Khi Chiến tranh thế giới thứ hai bùng nổ (9-1939), tình hình Đông
 Đây là bước chuyển chiến lược quan trọng mở đầu cho cao trào giải phóng dân tộc dẫn tới Cách mạng Tháng Tám.
 
 `,
-image: [],
+    image: [
+  "/image/cot-moc-1.jpg", "/image/cot-moc-1-1.jpg"
+],
 linkResource: [
 "https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_%C4%90%C3%B4ng_D%C6%B0%C6%A1ng"
 ],
