@@ -7,6 +7,7 @@ import { gsap } from "gsap";
 import { Calendar, ExternalLink, ArrowLeft } from "lucide-react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
+import TimelineAudioPlayer from "./components/TimelineAudioPlayer";
 
 interface TimelineDetailPageProps {
   post: PostType;
@@ -51,12 +52,20 @@ const TimelineDetailPage: React.FC<TimelineDetailPageProps> = ({ post }) => {
 
         {/* Header */}
         <div ref={headerRef} className="mb-8">
-          {/* Milestone Badge */}
-          <div className="flex items-center gap-3 mb-4">
+          {/* Milestone Badge + Audio Button */}
+          <div className="flex items-center gap-3 mb-4 flex-wrap">
             <div className="flex items-center gap-2 px-4 py-2 bg-amber-600/20 backdrop-blur-md rounded-full border border-amber-500/30">
               <Calendar className="w-5 h-5 text-amber-400" />
               <span className="text-amber-300 font-bold text-lg">{post.milestone}</span>
             </div>
+            
+            {/* Compact Audio Player */}
+            {post.audio && (
+              <TimelineAudioPlayer 
+                audioSrc={post.audio} 
+                compact={true}
+              />
+            )}
           </div>
 
           {/* Title */}

@@ -42,7 +42,7 @@ export default function HumanRightsPage() {
       word: 'VIỆT MINH',
       hint: 'Mặt trận Việt Nam Độc lập Đồng minh thành lập năm 1941 nhằm tập hợp mọi lực lượng yêu nước để đấu tranh giành độc lập (8 chữ)',
       imageUrls: [
-        '/puzzle/viet_minh_flag.png',
+        '/puzzle/viet_minh_flag.jpg',
         '/puzzle/viet_minh_members.jpg',
       ]
     },
@@ -70,7 +70,7 @@ export default function HumanRightsPage() {
       hint: 'Cuộc nổi dậy của toàn dân tháng 8-1945 nhằm giành chính quyền trên phạm vi cả nước (13 chữ)',
       imageUrls: [
         '/puzzle/august_revolution_hanoi.jpg',
-        '/puzzle/people_seize_power_1945.jpg',
+        '/puzzle/people_seize_power_1945.png',
       ]
     },
     {
@@ -131,13 +131,13 @@ export default function HumanRightsPage() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    
+
     const currentPuzzle = puzzles[currentRound]
     const isAnswerCorrect = normalizeString(userInput) === normalizeString(currentPuzzle.word)
 
     if (isAnswerCorrect) {
       setIsCorrect(true)
-      
+
       // Animate word flying to sidebar
       if (wordRef.current) {
         gsap.to(wordRef.current, {
@@ -151,7 +151,7 @@ export default function HumanRightsPage() {
             setCollectedWords([...collectedWords, currentPuzzle.word])
             setUserInput('')
             setIsCorrect(null)
-            
+
             if (currentRound < puzzles.length - 1) {
               setCurrentRound(currentRound + 1)
             } else {
@@ -425,8 +425,8 @@ export default function HumanRightsPage() {
                 </motion.div>
               </div>
 
-              {/* Start Journey Button */}
-              <motion.button
+              {/* Start Journey Button - Commented out as only guessing game is needed */}
+              {/* <motion.button
                 initial={{ y: 30, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ delay: 1.5 }}
@@ -441,7 +441,7 @@ export default function HumanRightsPage() {
                   className="absolute inset-0 bg-amber-400/30 rounded-full blur-xl"
                 />
                 <span className="relative">Tìm hiểu thêm →</span>
-              </motion.button>
+              </motion.button> */}
             </motion.div>
           )}
         </AnimatePresence>

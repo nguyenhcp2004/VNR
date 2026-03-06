@@ -218,6 +218,7 @@ id: 1,
 slug: "cot-moc-1-chuyen-huong-chien-luoc-giai-phong-dan-toc",
 title: "Cột mốc 1: Chuyển hướng chiến lược giải phóng dân tộc",
 milestone: "11-1939",
+audio: "/audio/Timeline1.mp3",
 shortDescription:
 "Hội nghị Trung ương 6 đánh dấu bước chuyển chiến lược của Đảng, đặt nhiệm vụ giải phóng dân tộc lên hàng đầu.",
 content: `
@@ -249,6 +250,7 @@ id: 2,
 slug: "cot-moc-2-hoi-nghi-trung-uong-8-va-thanh-lap-viet-minh",
 title: "Cột mốc 2: Hội nghị Trung ương 8 và sự ra đời Việt Minh",
 milestone: "05-1941",
+audio: "/audio/Timeline2.mp3",
 shortDescription:
 "Hội nghị Trung ương 8 do Nguyễn Ái Quốc chủ trì hoàn chỉnh chiến lược giải phóng dân tộc và thành lập Mặt trận Việt Minh.",
 content: `
@@ -285,6 +287,7 @@ id: 3,
 slug: "cot-moc-3-xay-dung-luc-luong-vu-trang-cach-mang",
 title: "Cột mốc 3: Xây dựng lực lượng vũ trang cách mạng",
 milestone: "1941–1944",
+audio: "/audio/Timeline3.mp3",
 shortDescription:
 "Đảng từng bước xây dựng lực lượng vũ trang từ du kích đến quân đội cách mạng.",
 content: `
@@ -323,6 +326,7 @@ id: 4,
 slug: "cot-moc-4-cao-trao-khang-nhat-cuu-nuoc",
 title: "Cột mốc 4: Cao trào kháng Nhật cứu nước",
 milestone: "03-1945",
+audio: "/audio/Timeline4.mp3",
 shortDescription:
 "Nhật đảo chính Pháp tạo bước ngoặt, Đảng phát động cao trào kháng Nhật cứu nước.",
 content: `
@@ -361,6 +365,7 @@ id: 5,
 slug: "cot-moc-5-thoi-co-cach-mang-thang-tam",
 title: "Cột mốc 5: Thời cơ cách mạng xuất hiện",
 milestone: "08-1945",
+audio: "/audio/Timeline5.mp3",
 shortDescription:
 "Nhật đầu hàng Đồng minh tạo thời cơ vàng cho cách mạng Việt Nam.",
 content: `
@@ -396,6 +401,7 @@ id: 6,
 slug: "cot-moc-6-tong-khoi-nghia-thang-tam",
 title: "Cột mốc 6: Tổng khởi nghĩa Tháng Tám",
 milestone: "08-1945",
+audio: "/audio/Timeline6.mp3",
 shortDescription:
 "Nhân dân cả nước vùng lên giành chính quyền dưới sự lãnh đạo của Đảng.",
 content: `
@@ -438,6 +444,7 @@ id: 7,
 slug: "cot-moc-7-khai-sinh-nuoc-viet-nam-dan-chu-cong-hoa",
 title: "Cột mốc 7: Khai sinh nước Việt Nam Dân chủ Cộng hòa",
 milestone: "02-09-1945",
+audio: "/audio/Timeline7.mp3",
 shortDescription:
 "Chủ tịch Hồ Chí Minh đọc Tuyên ngôn Độc lập tại Quảng trường Ba Đình.",
 content: `
