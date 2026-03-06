@@ -21,7 +21,6 @@ const NavigateButton = () => {
 
   const routes = [
     { name: "Trang chủ", path: "/", icon: Home },
-
     { name: "Phản biện quan điểm sai lệch", path: "/compare", icon: Scale },
     {
       name: "Trò chơi đoán từ khóa",
@@ -36,7 +35,7 @@ const NavigateButton = () => {
     // },
     {
       name: "Triển lãm số",
-      path: "https://museum3d.vercel.app/",
+      path: "https://vnr-museum.vercel.app/",
       icon: Landmark,
       external: true,
     },
