@@ -2,123 +2,246 @@ import { PostType } from "@/common/types/post.type";
 
 export const posts: PostType[] = [
   {
-    id: 1,
-    slug: "con-nguoi-trong-xa-hoi-chiem-huu-no-le",
-    title: " CON NGƯỜI TRONG XÃ HỘI CHIẾM HỮU NÔ LỆ",
-    milestone: "1927",
-    audio: "/audio/chiem_huu_no_le.mp3",
-    shortDescription:
-      "Khám phá thân phận con người trong thời kỳ chiếm hữu nô lệ, nơi nô lệ bị coi là 'công cụ lao động sống' và quyền dân chủ chỉ là đặc quyền hạn hẹp của giai cấp thống trị.",
-    content:
-      'Trong thời kỳ chiếm hữu nô lệ, xã hội được tổ chức dựa trên sự phân chia rõ rệt giữa chủ nô và nô lệ. Nô lệ bị coi là tài sản, là công cụ lao động sống, không có địa vị pháp lý hay quyền chính trị. Quyền con người, nếu có, chỉ tồn tại trong phạm vi rất hẹp của tầng lớp chủ nô và quý tộc. Ngay cả những hình thức dân chủ sơ khai (như ở Hy Lạp cổ đại) cũng chỉ áp dụng cho nam giới tự do, loại trừ phụ nữ, nô lệ và người ngoại bang. Dân chủ lúc này mang tính đặc quyền giai cấp, không phải dân chủ phổ quát. Nhận xét ngắn: → Dân chủ mang tính đặc quyền giai cấp. Nô lệ bị coi là "công cụ lao động sống" hoàn toàn bị phủ nhận nhân quyền.',
-    image: ["/image/chiem-huu-no-le.jpg", "/image/ss1.png"],
-    linkResource: [
-      "https://thuvienphapluat.vn/lao-dong-tien-luong/cam-nang-di-lam/chiem-huu-no-le-la-gi-vi-du-che-do-chiem-huu-no-le-ket-thuc-khi-nao-thoi-ky-chiem-huu-no-le-o-viet-n-696.html",
-      "https://mod.gov.vn/vn/noi-dung/sa-ttk/sa-ttdv-kienthucqp/sa-ttk-ktqp-ttqs/92f7ce65-ad28-4b4d-b309-d993db08a5e4"
-    ]
+  id: 1,
+  slug: "cot-moc-1-chuyen-huong-chien-luoc-giai-phong-dan-toc",
+  title: "Cột mốc 1: Chuyển hướng chiến lược giải phóng dân tộc",
+  milestone: "11-1939",
+  shortDescription:
+  "Hội nghị Trung ương 6 đánh dấu bước chuyển chiến lược của Đảng, đặt nhiệm vụ giải phóng dân tộc lên hàng đầu.",
+  content: `
+  ## Nội dung chính
+  Khi Chiến tranh thế giới thứ hai bùng nổ (9-1939), tình hình Đông Dương thay đổi sâu sắc. Thực dân Pháp thi hành chính sách thời chiến, đàn áp phong trào cách mạng. Trước bối cảnh đó, Hội nghị Trung ương Đảng (11-1939) đã xác định con đường sống còn của dân tộc là đánh đổ đế quốc Pháp và mọi thế lực xâm lược.
+
+  Đảng quyết định **chuyển hướng chiến lược**, đặt nhiệm vụ giải phóng dân tộc lên trên hết. Khẩu hiệu cách mạng ruộng đất được tạm gác để tập trung toàn bộ lực lượng vào nhiệm vụ chống đế quốc. Đồng thời, Đảng chủ trương xây dựng mặt trận dân tộc thống nhất chống đế quốc nhằm tập hợp mọi lực lượng yêu nước.
+
+  ## Ý chính
+  - Chiến tranh thế giới thứ hai làm thay đổi cục diện chính trị Đông Dương
+  - Đảng xác định nhiệm vụ trung tâm là **giải phóng dân tộc**
+  - Tạm gác khẩu hiệu cách mạng ruộng đất
+  - Chủ trương thành lập mặt trận dân tộc thống nhất chống đế quốc
+
+  > “Đặt quyền lợi dân tộc lên trên hết, trước hết.”
+
+  ## Ý nghĩa
+  Đây là bước chuyển chiến lược quan trọng mở đầu cho cao trào giải phóng dân tộc dẫn tới Cách mạng Tháng Tám.
+
+  `,
+  image: [
+  "https://upload.wikimedia.org/wikipedia/commons/7/73/Indochina_map_1939.jpg"
+  ],
+  linkResource: [
+  "https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_%C4%90%C3%B4ng_D%C6%B0%C6%A1ng"
+  ],
   },
+
   {
-    id: 2,
-    slug: "cot-moc-2-xay-dung-dang-trong-sach-vung-manh",
-    title: "Cột mốc 2: Bản chất của Đảng - Đạo đức và Văn minh",
-    milestone: "1960",
-    audio: "/audio/cotmoc2.mp3",
-    shortDescription:
-      "Tổng kết 30 năm lãnh đạo, Hồ Chí Minh đúc kết bản chất của Đảng không chỉ ở quyền lực chính trị, mà còn ở tầm vóc văn hóa và đạo đức.",
-    content:
-      '## 1. Tuyên ngôn về tính chính danh của Đảng\nTại Lễ kỷ niệm 30 năm thành lập Đảng (1960), Chủ tịch Hồ Chí Minh đã có một đúc kết nổi tiếng, trở thành kim chỉ nam cho bản chất của Đảng cầm quyền:\n\n> "Đảng ta là đạo đức, là văn minh."\n\nĐây là một mệnh đề triết học sâu sắc:\n- **Là Đạo đức:** Đảng không có lợi ích riêng, lợi ích của Đảng nằm trong lợi ích của Nhân dân. Sự hy sinh, tận hiến là thước đo giá trị.\n- **Là Văn minh:** Đảng đại diện cho trí tuệ, cho sự tiến bộ, khoa học và lương tri của thời đại, xóa bỏ những cái cũ kỹ, lạc hậu.\n\n## 2. Năm nguyên tắc "vàng" trong sinh hoạt Đảng\nĐể Đảng luôn "sống", Người đề ra 5 nguyên tắc vận hành cốt lõi:\n\n1.  **Tập trung dân chủ:** Nguyên tắc rường cột. Dân chủ để mở rộng trí tuệ, tập trung để thống nhất hành động.\n2.  **Tập thể lãnh đạo, cá nhân phụ trách:** Khắc phục tệ sùng bái cá nhân và thói vô trách nhiệm.\n3.  **Tự phê bình và phê bình:** Đây là quy luật phát triển, là "thuốc rửa mặt hàng ngày" để ngăn ngừa suy thoái.\n4.  **Kỷ luật nghiêm minh, tự giác:** Sức mạnh không đến từ sự cưỡng bức, mà từ sự giác ngộ lý tưởng.\n5.  **Đoàn kết thống nhất:** *"Giữ gìn sự đoàn kết nhất trí của Đảng như giữ gìn con ngươi của mắt mình"*.',
-    image: [
-      "https://tse3.mm.bing.net/th/id/OIP.C_x9WTo0HTyIEPO3G2iYVwHaGJ?cb=ucfimg2&ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3"
-    ],
-    linkResource: [
-      "https://tulieuvankien.dangcongsan.vn/ban-chap-hanh-trung-uong-dang/dai-hoi-dang/lan-thu-iii",
-      "https://nhandan.vn/dau-an-cac-ky-dai-hoi-dai-hoi-iii-xay-dung-cnxh-o-mien-bac-dau-tranh-giai-phong-mien-nam-post445353.html"
-    ]
+  id: 2,
+  slug: "cot-moc-2-hoi-nghi-trung-uong-8-va-thanh-lap-viet-minh",
+  title: "Cột mốc 2: Hội nghị Trung ương 8 và sự ra đời Việt Minh",
+  milestone: "05-1941",
+  shortDescription:
+  "Hội nghị Trung ương 8 do Nguyễn Ái Quốc chủ trì hoàn chỉnh chiến lược giải phóng dân tộc và thành lập Mặt trận Việt Minh.",
+  content: `
+  ## Nội dung chính
+  Tháng 5-1941, Hội nghị Trung ương 8 của Đảng họp tại Pác Bó (Cao Bằng) dưới sự chủ trì của Nguyễn Ái Quốc. Hội nghị hoàn chỉnh chủ trương chiến lược giải phóng dân tộc, xác định mâu thuẫn chủ yếu lúc này là mâu thuẫn giữa dân tộc Việt Nam với đế quốc phát xít Pháp – Nhật.
+
+  Đảng khẳng định nhiệm vụ trước mắt của cách mạng là **giải phóng dân tộc**, không đặt vấn đề cách mạng ruộng đất. Hội nghị quyết định thành lập **Mặt trận Việt Nam Độc lập Đồng minh (Việt Minh)** để tập hợp rộng rãi mọi tầng lớp nhân dân.
+
+  Các tổ chức cứu quốc được thành lập nhằm huy động sức mạnh toàn dân, tạo nền tảng cho cuộc khởi nghĩa vũ trang sau này.
+
+  ## Ý chính
+  - Xác định mâu thuẫn chủ yếu: dân tộc Việt Nam vs Pháp – Nhật
+  - Hoàn chỉnh chiến lược giải phóng dân tộc
+  - Thành lập Mặt trận **Việt Minh**
+  - Xây dựng các tổ chức cứu quốc trong quần chúng
+
+  > “Lúc này quyền lợi dân tộc giải phóng cao hơn hết thảy.”
+
+  ## Ý nghĩa
+  Việt Minh trở thành lực lượng chính trị rộng lớn lãnh đạo toàn dân tiến tới tổng khởi nghĩa.
+
+  `,
+  image: [
+  "https://upload.wikimedia.org/wikipedia/commons/4/4c/Viet_Minh_flag.svg"
+  ],
+  linkResource: [
+  "https://vi.wikipedia.org/wiki/Vi%E1%BB%87t_Minh"
+  ],
   },
+
   {
-    id: 3,
-    slug: "cot-moc-3-tu-tuong-ve-can-bo-va-cong-tac-can-bo",
-    title: "Cột mốc 3: Cán bộ - Cái gốc của mọi công việc",
-    milestone: "1947",
-    audio: "/audio/cotmoc3.mp3",
-    shortDescription:
-      "Trong tác phẩm 'Sửa đổi lối làm việc' (1947), Hồ Chí Minh đặt nền tảng cho khoa học tổ chức cán bộ với mối quan hệ biện chứng giữa Đức và Tài.",
-    content:
-      '## 1. Vị trí của cán bộ\nHồ Chí Minh coi cán bộ là "dây chuyền" của bộ máy, là người đem chính sách của Chính phủ, của Đoàn thể thi hành trong nhân dân. Người khẳng định dứt khoát:\n\n> "Muôn việc thành công hoặc thất bại, đều do cán bộ tốt hoặc kém."\n\n## 2. Triết lý Đức - Tài\nĐây là quan điểm xuyên suốt trong việc đánh giá con người của Hồ Chí Minh, được thể hiện qua công thức biện chứng:\n\n- **Đức (Phẩm chất):** Là cái "Gốc". Người có tài mà không có đức là người vô dụng, thậm chí nguy hiểm vì họ dùng cái tài để làm hại dân, hại nước. Biểu hiện qua: *Cần, Kiệm, Liêm, Chính, Chí công vô tư*.\n- **Tài (Năng lực):** Là cái "Dụng". Có đức mà không có tài thì làm việc gì cũng khó, không mang lại hiệu quả thực tế cho cách mạng.\n\n## 3. "Dụng nhân như dụng mộc"\nTrong nghệ thuật dùng người, Người khuyên phải biết tùy tài mà dùng, không cầu toàn trách cứ:\n\n> "Người đời ai cũng có chỗ hay chỗ dở... Dùng người như dùng gỗ. Người thợ khéo thì gỗ to, nhỏ, thẳng, cong đều tùy chỗ mà dùng được."\n\nTư tưởng này đòi hỏi người lãnh đạo phải có tâm trong sáng và con mắt tinh đời để bố trí đúng người, đúng việc.',
-    image: [
-      "https://tse1.mm.bing.net/th/id/OIP.tqV_f6jxmRF-yNUW9dsxVAHaFw?cb=ucfimg2&ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3"
-    ],
-    linkResource: [
-      "https://tuyengiao.vn/hoc-tap-va-lam-theo-loi-bac/tu-tuong-ho-chi-minh-ve-can-bo-va-cong-tac-can-bo-132338",
-      "https://dangcongsan.vn/tu-tuong-van-hoa/can-bo-la-cai-goc-cua-moi-cong-viec-554476.html"
-    ]
+  id: 3,
+  slug: "cot-moc-3-xay-dung-luc-luong-vu-trang-cach-mang",
+  title: "Cột mốc 3: Xây dựng lực lượng vũ trang cách mạng",
+  milestone: "1941–1944",
+  shortDescription:
+  "Đảng từng bước xây dựng lực lượng vũ trang từ du kích đến quân đội cách mạng.",
+  content: `
+  ## Nội dung chính
+  Sau khi xác định con đường khởi nghĩa vũ trang, Đảng tích cực xây dựng lực lượng quân sự. Từ các đội du kích Bắc Sơn, lực lượng **Cứu quốc quân** được hình thành và phát triển.
+
+  Ngày 22-12-1944, theo chỉ thị của Hồ Chí Minh, **Đội Việt Nam Tuyên truyền Giải phóng quân** được thành lập do Võ Nguyên Giáp chỉ huy. Đây là tiền thân của Quân đội nhân dân Việt Nam.
+
+  Song song với lực lượng vũ trang, Đảng cũng xây dựng căn cứ địa cách mạng, đặc biệt là vùng Việt Bắc, làm nơi huấn luyện và phát triển lực lượng.
+
+  ## Ý chính
+  - Phát triển từ du kích Bắc Sơn thành **Cứu quốc quân**
+  - Thành lập Đội Việt Nam Tuyên truyền Giải phóng quân (22-12-1944)
+  - Xây dựng căn cứ địa cách mạng Việt Bắc
+  - Chuẩn bị lực lượng cho khởi nghĩa vũ trang
+
+  > “Chính trị trọng hơn quân sự, nhưng quân sự là cần thiết.”
+
+  ## Ý nghĩa
+  Đặt nền móng cho lực lượng quân sự nòng cốt của cuộc Tổng khởi nghĩa.
+
+  `,
+  image: [
+  "https://upload.wikimedia.org/wikipedia/commons/2/21/Viet_Nam_Liberation_Army_1944.jpg"
+  ],
+  linkResource: [
+  "https://vi.wikipedia.org/wiki/Qu%C3%A2n_%C4%91%E1%BB%99i_nh%C3%A2n_d%C3%A2n_Vi%E1%BB%87t_Nam"
+  ],
   },
+
   {
-    id: 4,
-    slug: "con-nguoi-trong-xa-hoi-phong-kien",
-    title: "CON NGƯỜI TRONG XÃ HỘI PHONG KIẾN",
-    milestone: "1945",
-    audio: "/audio/phong_kien.mp3",
-    shortDescription:
-      "Khám phá thời kỳ phong kiến khi con người thoát khỏi thân phận nô lệ nhưng vẫn bị ràng buộc bởi quan hệ lệ thuộc lãnh chúa. Tìm hiểu cách 'thiên mệnh' và 'thần quyền' trở thành công cụ áp đặt trật tự xã hội và phủ nhận quyền cá nhân độc lập.",
-    content:
-      'Sang thời kỳ phong kiến, tuy chế độ nô lệ dần bị thay thế, nhưng con người vẫn bị ràng buộc chặt chẽ vào các quan hệ lệ thuộc. Nông dân trở thành thần dân, bị bóc lột thông qua địa tô, sưu thuế và lao dịch. Quyền lực chính trị tập trung trong tay vua chúa và tầng lớp quý tộc phong kiến, thường được biện minh bằng “thiên mệnh” hay trật tự thần quyền. Nhân phẩm con người bị đánh giá thấp; cá nhân không được thừa nhận như một chủ thể độc lập, mà chủ yếu tồn tại như một phần của trật tự xã hội cố định. Nhận xét ngắn: → Con người là "thần dân", lệ thuộc vào thần quyền và thiên mệnh. Cá nhân chưa được thừa nhận là một chủ thể độc lập.',
-    image: ["/image/phong-kien-phuong-tay.png", "/image/ss2.png"],
-    linkResource: [
-      "https://diendan.hocluat.vn/viewtopic.php?t=11341",
-      "https://www.history.com/articles/feudalism"
-    ]
+  id: 4,
+  slug: "cot-moc-4-cao-trao-khang-nhat-cuu-nuoc",
+  title: "Cột mốc 4: Cao trào kháng Nhật cứu nước",
+  milestone: "03-1945",
+  shortDescription:
+  "Nhật đảo chính Pháp tạo bước ngoặt, Đảng phát động cao trào kháng Nhật cứu nước.",
+  content: `
+  ## Nội dung chính
+  Ngày 9-3-1945, phát xít Nhật đảo chính Pháp tại Đông Dương, làm tan rã bộ máy thống trị của Pháp. Trước tình hình mới, ngày 12-3-1945, Ban Thường vụ Trung ương Đảng ra chỉ thị lịch sử **“Nhật – Pháp bắn nhau và hành động của chúng ta”**.
+
+  Đảng xác định kẻ thù trước mắt là phát xít Nhật và phát động cao trào kháng Nhật cứu nước. Nhân dân nổi dậy khởi nghĩa từng phần, phá kho thóc cứu đói, giành chính quyền ở nhiều địa phương.
+
+  Tháng 6-1945, **Khu giải phóng Việt Bắc** được thành lập, trở thành căn cứ địa cách mạng của cả nước.
+
+  ## Ý chính
+  - Nhật đảo chính Pháp (9-3-1945)
+  - Chỉ thị “Nhật – Pháp bắn nhau và hành động của chúng ta”
+  - Khởi nghĩa từng phần diễn ra ở nhiều địa phương
+  - Thành lập Khu giải phóng Việt Bắc
+
+  > “Phát động cao trào kháng Nhật cứu nước.”
+
+  ## Ý nghĩa
+  Chuẩn bị trực tiếp cho Tổng khởi nghĩa trên phạm vi toàn quốc.
+
+  `,
+  image: [
+  "https://upload.wikimedia.org/wikipedia/commons/9/97/Viet_Bac_base_area_map.jpg"
+  ],
+  linkResource: [
+  "https://vi.wikipedia.org/wiki/C%C3%A1ch_m%E1%BA%A1ng_th%C3%A1ng_T%C3%A1m"
+  ],
   },
+
   {
-    id: 5,
-    slug: "con-nguoi-trong-xa-hoi-tu-ban-chu-nghia",
-    title: "CON NGƯỜI TRONG XÃ HỘI TƯ BẢN CHỦ NGHĨA",
-    milestone: "1946",
-    audio: "/audio/tu_ban_chu_nghia.mp3",
-    shortDescription:
-      "Khám phá bước ngoặt của các cuộc cách mạng tư sản trong việc xác lập quyền tự nhiên của con người. Tuy nhiên, hãy cùng phân tích mặt trái khi quyền tự do cá nhân bị chi phối bởi quyền sở hữu vốn và sự bất bình đẳng kinh tế sâu sắc.",
-    content:
-      "Sự ra đời của chủ nghĩa tư bản, gắn liền với các cuộc cách mạng tư sản (Anh, Mỹ, Pháp), đã đánh dấu một bước ngoặt lớn trong nhận thức về con người. Các tư tưởng khai sáng đề cao tự do cá nhân, bình đẳng trước pháp luật và quyền công dân. Những văn kiện lịch sử như Tuyên ngôn Nhân quyền và Dân quyền (1789) đã khẳng định con người sinh ra vốn có quyền tự nhiên và bất khả xâm phạm. Tuy nhiên, trên thực tế, quyền con người trong xã hội tư bản vẫn chịu sự chi phối mạnh mẽ bởi quyền sở hữu tư liệu sản xuất. Dân chủ chủ yếu mang tính hình thức và chính trị, trong khi bất bình đẳng kinh tế – xã hội ngày càng sâu sắc. Quyền lực thực tế tập trung vào tay những người sở hữu vốn, còn người lao động tuy “tự do” về pháp lý nhưng lại phụ thuộc vào thị trường lao động để tồn tại. Điều này khiến tự do của họ mang tính tương đối, thậm chí bị giới hạn bởi điều kiện kinh tế.→ Dân chủ tư sản là một bước tiến quan trọng, nhưng chưa giải quyết triệt để mối quan hệ giữa tự do chính trị và công bằng xã hội. Nhận xét ngắn: → Bước ngoặt lớn với các quyền tự nhiên. Tuy nhiên, dân chủ tư sản vẫn dựa trên chế độ tư hữu, dẫn đến sự bất bình đẳng sâu sắc giữa người sở hữu vốn và người bán sức lao động. Dân chủ lúc này chủ yếu mang tính hình thức.",
-    image: ["/image/tu-ban-chu-nghia.jpg", "/image/ss3.png"],
-    linkResource: [
-      "https://vi.wikipedia.org/wiki/Ch%E1%BB%A7_ngh%C4%A9a_t%C6%B0_b%E1%BA%A3n",
-      "https://www.facebook.com/hoisuhocdanlapvietnam/posts/l%E1%BB%8Bch-s%E1%BB%AD-th%E1%BA%BF-gi%E1%BB%9Bi-c%E1%BA%ADn-%C4%91%E1%BA%A1i-kh%C3%A1i-qu%C3%A1t-chung-i-m%E1%BB%99t-v%C3%A0i-n%C3%A9t-kh%C3%A1i-qu%C3%A1t-v%E1%BB%81-th%E1%BA%AFng-l%E1%BB%A3i-c%E1%BB%A7/367880700071543/"
-    ]
+  id: 5,
+  slug: "cot-moc-5-thoi-co-cach-mang-thang-tam",
+  title: "Cột mốc 5: Thời cơ cách mạng xuất hiện",
+  milestone: "08-1945",
+  shortDescription:
+  "Nhật đầu hàng Đồng minh tạo thời cơ vàng cho cách mạng Việt Nam.",
+  content: `
+  ## Nội dung chính
+  Giữa tháng 8-1945, phát xít Nhật đầu hàng Đồng minh vô điều kiện sau khi bị đánh bại trong Chiến tranh thế giới thứ hai. Bộ máy chính quyền tay sai ở Đông Dương rơi vào khủng hoảng nghiêm trọng.
+
+  Trước thời cơ lịch sử đó, Hội nghị toàn quốc của Đảng (14–15/8/1945) và Đại hội Quốc dân Tân Trào (16/8/1945) đã quyết định phát động Tổng khởi nghĩa giành chính quyền trong cả nước trước khi quân Đồng minh vào Đông Dương.
+
+  Quyết định này thể hiện sự nhạy bén và nghệ thuật chớp thời cơ của Đảng và Chủ tịch Hồ Chí Minh.
+
+  ## Ý chính
+  - Nhật đầu hàng Đồng minh
+  - Chính quyền thực dân – phát xít tan rã
+  - Hội nghị toàn quốc của Đảng quyết định Tổng khởi nghĩa
+  - Đại hội Tân Trào thông qua lệnh khởi nghĩa
+
+  > “Dù phải đốt cháy cả dãy Trường Sơn cũng phải giành độc lập.”
+
+  ## Ý nghĩa
+  Tạo điều kiện trực tiếp để nhân dân cả nước vùng lên giành chính quyền.
+
+  `,
+  image: [
+  "https://upload.wikimedia.org/wikipedia/commons/e/e5/Tan_Trao_Banyan_Tree.jpg"
+  ],
+  linkResource: [
+  "https://vi.wikipedia.org/wiki/T%C3%A2n_Tr%C3%A0o"
+  ],
   },
+
   {
-    id: 6,
-    slug: "con-nguoi-trong-xa-hoi-xa-hoi-chu-nghia",
-    title: "CON NGƯỜI TRONG XÃ HỘI XÃ HỘI CHỦ NGHĨA (CNXH)",
-    milestone: "1946–1969",
-    audio: "/audio/xa_hoi_chu_nghia.mp3",
-    shortDescription:
-      "Nhận diện sớm nguy cơ tha hóa của quyền lực và thiết lập 'lồng cơ chế' để nhốt quyền lực.",
-    content:
-      "Chủ nghĩa xã hội ra đời như một phản ứng trước những mâu thuẫn của xã hội tư bản, đặt mục tiêu giải phóng con người khỏi áp bức giai cấp và bất công kinh tế. Điểm cốt lõi của CNXH là sự chuyển dịch từ quyền của “người có của” sang quyền của “nhân dân lao động” – những người trực tiếp tạo ra của cải vật chất cho xã hội. Trong lý luận xã hội chủ nghĩa, quyền con người không chỉ dừng lại ở quyền dân sự – chính trị, mà còn bao gồm quyền kinh tế, xã hội và văn hóa như: quyền được lao động, học tập, chăm sóc y tế và sống trong điều kiện đảm bảo nhân phẩm. Dân chủ được hiểu là dân chủ thực chất, gắn liền với việc tham gia quản lý xã hội và phân phối công bằng thành quả phát triển. → Dân chủ xã hội chủ nghĩa nhấn mạnh rằng tự do không thể tách rời điều kiện vật chất và công bằng xã hội. Nhận xét ngắn: → Dân chủ gắn với bảo đảm điều kiện vật chất cho tự do con người. Bản chất kinh tế: Dựa trên chế độ công hữu về tư liệu sản xuất chủ yếu, xóa bỏ áp bức bóc lột. Mục tiêu: Giải phóng con người triệt để, chuyển quyền lực từ tay 'người có của' sang 'nhân dân lao động'. Đặc điểm: Tự do cá nhân gắn liền với điều kiện vật chất và công bằng xã hội.",
-    image: ["/image/xhcn-ptay.png", "/image/ss4.png"],
-    linkResource: [
-      "https://tapchicongsan.org.vn/web/guest/kinh-te/-/2018/20369/vi-con-nguoi-xa-hoi-chu-nghia%21.aspx",
-      "https://baoquankhu7.vn/muon-xay-dung-chu-nghia-xa-hoi-phai-co-con-nguoi-xa-hoi-chu-nghia-va-co-tu-tuong-xa-hoi-chu-nghia-1740318005-0018539s34810gs"
-    ]
+  id: 6,
+  slug: "cot-moc-6-tong-khoi-nghia-thang-tam",
+  title: "Cột mốc 6: Tổng khởi nghĩa Tháng Tám",
+  milestone: "08-1945",
+  shortDescription:
+  "Nhân dân cả nước vùng lên giành chính quyền dưới sự lãnh đạo của Đảng.",
+  content: `
+  ## Nội dung chính
+  Tháng 8-1945, dưới sự lãnh đạo của Đảng và Việt Minh, nhân dân cả nước đồng loạt nổi dậy giành chính quyền. Các cuộc khởi nghĩa lớn nhanh chóng giành thắng lợi ở nhiều địa phương.
+
+  Những thắng lợi quyết định diễn ra tại **Hà Nội (19-8)**, **Huế (23-8)** và **Sài Gòn (25-8)**. Bộ máy chính quyền của đế quốc và phong kiến hoàn toàn sụp đổ.
+
+  Chỉ trong thời gian rất ngắn, chính quyền về tay nhân dân trên phạm vi cả nước.
+
+  ## Ý chính
+  - Nhân dân cả nước nổi dậy khởi nghĩa
+  - Thắng lợi ở Hà Nội, Huế, Sài Gòn
+  - Chính quyền thực dân phong kiến bị lật đổ
+  - Chính quyền cách mạng được thành lập
+
+  > “Cả dân tộc vùng lên giành chính quyền.”
+
+  ## Ý nghĩa
+  Thắng lợi của Tổng khởi nghĩa mở đường cho việc thành lập nhà nước mới của dân tộc Việt Nam.
+
+  `,
+  image: [
+  "https://upload.wikimedia.org/wikipedia/commons/b/b0/August_Revolution_Hanoi_1945.jpg"
+  ],
+  linkResource: [
+  "https://vi.wikipedia.org/wiki/C%C3%A1ch_m%E1%BA%A1ng_th%C3%A1ng_T%C3%A1m"
+  ],
   },
+
   {
-    id: 7,
-    slug: "cot-moc-7-phong-chong-tham-nhung-lang-phi",
-    title: "Cột mốc 7: Tuyên chiến với giặc nội xâm",
-    milestone: "1952",
-    audio: "/audio/cotmoc7.mp3",
-    shortDescription:
-      "Tham ô, lãng phí và bệnh quan liêu là kẻ thù của nhân dân, của bộ đội và của Chính phủ.",
-    content:
-      '## 1. Nhận diện kẻ thù giấu mặt\nNăm 1952, Hồ Chí Minh phát động phong trào *Chống tham ô, lãng phí, chống bệnh quan liêu*. Người gọi đây là **"Giặc nội xâm"**.\n\nTại sao gọi là giặc? Vì nó phá hoại từ bên trong. \n> "Tham ô, lãng phí và bệnh quan liêu, dù cố ý hay không, cũng là bạn đồng minh của thực dân và phong kiến... Nó làm hỏng tinh thần trong sạch và ý chí khắc khổ của cán bộ ta."\n\n## 2. Mối quan hệ nhân quả\nNgười chỉ ra nguồn gốc của tham nhũng là **Bệnh Quan liêu** (xa rời thực tế, xa rời nhân dân). Vì quan liêu nên không nắm được việc, dẫn đến cấp dưới làm bậy (Tham ô) hoặc làm ẩu (Lãng phí) mà không biết.\n\n## 3. Liệu pháp chữa trị\nĐể chống lại "giặc nội xâm", Người kê đơn thuốc gồm 2 vị:\n- **Pháp trị nghiêm khắc:** Trừng trị thẳng tay kẻ sâu mọt đục khoét của dân.\n- **Dân chủ rộng rãi:** \n> "Làm cho quần chúng khinh ghét tệ tham ô, lãng phí, quan liêu; biến hàng trăm, hàng ngàn con mắt của quần chúng thành những ngọn đèn pha soi sáng khắp mọi nơi."\n\n## 4. Tầm nhìn chiến lược\nĐây không phải là công việc nhất thời, mà là cuộc đấu tranh "khổng lồ", lâu dài giữa cái tốt và cái xấu, giữa đạo đức cách mạng và chủ nghĩa cá nhân trong mỗi con người.',
-    image: [
-      "https://th.bing.com/th/id/R.25e9f1ec691b6b3ec5dad6a765241f8b?rik=Vlgbx7JsVlkoBw&pid=ImgRaw&r=0",
-      "https://upload.wikimedia.org/wikipedia/commons/4/4d/Ho_Chi_Minh_portrait.jpg"
-    ],
-    linkResource: [
-      "https://www.quanlynhanuoc.vn/2024/08/01/phong-chong-tham-nhung-theo-tu-tuong-ho-chi-minh/",
-      "https://tulieuvankien.dangcongsan.vn/c-mac-angghen-lenin-ho-chi-minh/ho-chi-minh/nghien-cuu-hoc-tap-tu-tuong/bac-ho-noi-ve-tham-nhung-va-chong-tham-nhung-2413"
-    ]
+  id: 7,
+  slug: "cot-moc-7-khai-sinh-nuoc-viet-nam-dan-chu-cong-hoa",
+  title: "Cột mốc 7: Khai sinh nước Việt Nam Dân chủ Cộng hòa",
+  milestone: "02-09-1945",
+  shortDescription:
+  "Chủ tịch Hồ Chí Minh đọc Tuyên ngôn Độc lập tại Quảng trường Ba Đình.",
+  content: `
+  ## Nội dung chính
+  Ngày 2-9-1945 tại Quảng trường Ba Đình (Hà Nội), Chủ tịch Hồ Chí Minh thay mặt Chính phủ lâm thời đọc **Tuyên ngôn Độc lập**, chính thức tuyên bố với thế giới sự ra đời của nước Việt Nam Dân chủ Cộng hòa.
+
+  Sự kiện này chấm dứt ách thống trị của thực dân, phong kiến kéo dài hàng thế kỷ và mở ra kỷ nguyên mới cho dân tộc: **kỷ nguyên độc lập, tự do**.
+
+  Việt Nam trở thành quốc gia dân chủ nhân dân đầu tiên ở Đông Nam Á.
+
+  ## Ý chính
+  - Hồ Chí Minh đọc Tuyên ngôn Độc lập
+  - Thành lập nước Việt Nam Dân chủ Cộng hòa
+  - Chấm dứt chế độ thực dân phong kiến
+  - Mở ra kỷ nguyên độc lập dân tộc
+
+  > “Nước Việt Nam có quyền hưởng tự do và độc lập.”
+
+  ## Ý nghĩa
+  Đánh dấu thắng lợi trọn vẹn của Cách mạng Tháng Tám 1945.
+
+  `,
+  image: [
+  "https://upload.wikimedia.org/wikipedia/commons/6/6f/Ho_Chi_Minh_reading_Declaration_of_Independence.jpg"
+  ],
+  linkResource: [
+  "https://vi.wikipedia.org/wiki/Tuy%C3%AAn_ng%C3%B4n_%C4%91%E1%BB%99c_l%E1%BA%ADp_(Vi%E1%BB%87t_Nam)"
+  ],
   }
 ];
 

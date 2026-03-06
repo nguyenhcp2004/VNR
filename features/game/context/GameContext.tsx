@@ -54,9 +54,9 @@ function gameReducer(state: GameState, action: GameAction): GameState {
       };
 
     case 'ANSWER_CORRECT': {
-      // Stage 1: collect up to 14 pieces (0-13)
-      // Stage 2: collect up to 18 pieces total (14-17)
-      const maxPiecesForStage = state.stage === 1 ? 14 : 18;
+      // Stage 1: collect up to 6 pieces (0-5)
+      // Stage 2: collect up to 9 pieces total (6-8)
+      const maxPiecesForStage = state.stage === 1 ? 6 : 9;
       const currentTotalPieces = state.collectedPieces.length;
 
       // Only add piece if we haven't reached the max for this stage
@@ -82,7 +82,7 @@ function gameReducer(state: GameState, action: GameAction): GameState {
 
     case 'NEXT_QUESTION': {
       // Check if already have enough pieces for current stage
-      const requiredPieces = state.stage === 1 ? 14 : 18;
+      const requiredPieces = state.stage === 1 ? 6 : 9;
 
       // Don't go to next question if already have enough pieces
       if (state.collectedPieces.length >= requiredPieces) {

@@ -1,6 +1,6 @@
 "use client";
 
-import { posts as defaultPosts } from "@/features/tai-lieu/data";
+import { posts as defaultPosts } from "@/common/constants/posts";
 import { PostType } from "@/common/types/post.type";
 import { TimelineItem } from "@/features/home/components/TimelineItem";
 import { useEffect, useRef } from "react";
@@ -59,14 +59,11 @@ const TimelineSection = ({
     }
   }, []);
 
-  // Sort posts by milestone year
+  // Sort posts by "cột mốc" number (id) in descending order
+  // So "Cột mốc 7" appears at top, "Cột mốc 1" at bottom
   const sortedPosts = [...posts]
-    .sort((a, b) => {
-      const yearA = parseInt(a.milestone.split("–")[0] || a.milestone);
-      const yearB = parseInt(b.milestone.split("–")[0] || b.milestone);
-      return yearA - yearB;
-    })
-    .slice(0, 4); // Limit to first 4 milestones
+    .sort((a, b) => b.id - a.id)
+    .slice(0, 10); // Limit to first 10 milestones
 
   return (
     <div className="container mx-auto px-6 py-24">
@@ -75,12 +72,12 @@ const TimelineSection = ({
         <div ref={headerRef} className="text-center mb-16">
           <div className="flex items-center justify-center gap-4 mb-4">
             <h2 className="text-5xl md:text-6xl font-bold text-amber-100">
-              Timeline
+              Các cột mốc lịch sử
             </h2>
           </div>
 
           <p className="text-amber-200/80 text-lg max-w-2xl mx-auto">
-            Quá trình hình thành và phát triển của quyền con người qua các hình thái xã hội.
+            Quá trình chuẩn bị và tiến hành Cách mạng Tháng Tám năm 1945.
           </p>
         </div>
 
