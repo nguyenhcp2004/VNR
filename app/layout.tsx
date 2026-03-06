@@ -20,8 +20,8 @@ const crimsonText = Crimson_Text({
 });
 
 export const metadata: Metadata = {
-  title: "Hành trình nhân quyền",
-  description: "MLN131 - Nội dung được tạo và hoàn thiện bởi nhóm 3",
+  title: "Cách mạng Tháng Tám 1945",
+  description: "Hành trình từ Hội nghị Trung ương 6 (1939) đến ngày Độc lập 2/9/1945 - MLN131 Nhóm 3",
 };
 
 export default function RootLayout({

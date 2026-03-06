@@ -28,19 +28,19 @@ const NavigateButton = () => {
       path: "/human-rights",
       icon: PersonStanding,
     },
+    { name: "Game", path: "/game", icon: Gamepad2 },
     // {
     //   name: "Thực tiễn tại Việt Nam",
     //   path: "/thuc-tien-hien-nay",
     //   icon: ClipboardList,
     // },
-    { name: "Báo cáo AI", path: "/used-ai", icon: Bot },
     {
       name: "Triển lãm số",
       path: "https://museum3d.vercel.app/",
       icon: Landmark,
       external: true,
     },
-    { name: "Game", path: "/game", icon: Gamepad2 },
+    { name: "Báo cáo AI", path: "/used-ai", icon: Bot },
   ];
 
   // Initial animation on mount
